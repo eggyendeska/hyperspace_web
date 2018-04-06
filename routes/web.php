@@ -12,8 +12,8 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
-    //return view('theme::home');
+    // return view('welcome');
+    return view('theme::home');
 });
 
 
