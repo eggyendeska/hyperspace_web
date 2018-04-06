@@ -1,4 +1,4 @@
-let mix = require('laravel-mix');
+const mix = require('laravel-mix');
 
 /*
  |--------------------------------------------------------------------------
@@ -12,18 +12,13 @@ let mix = require('laravel-mix');
  */
 
 mix.js('resources/assets/js/app.js', 'public/js')
-   .js('resources/assets/js/vendor/jquery/jquery.min.js', 'public/js')
-   .js('resources/assets/js/vendor/jquery.appear/jquery.appear.min.js', 'public/js')
-   .js('resources/assets/js/vendor/jquery.easing/jquery.easing.min.js', 'public/js')
-   .js('resources/assets/js/vendor/jquery-cookie/jquery-cookie.min.js', 'public/js')
-   .js('resources/assets/js/vendor/bootstrap/js/bootstrap.min.js', 'public/js')
-   .js('resources/assets/js/vendor/common/common.min.js', 'public/js')
-   .js('resources/assets/js/vendor/jquery.validation/jquery.validation.min.js', 'public/js')
-   .js('resources/assets/js/vendor/jquery.easy-pie-chart/jquery.easy-pie-chart.min.js', 'public/js')
-   .js('resources/assets/js/vendor/jquery.gmap/jquery.gmap.min.js', 'public/js')
-   .js('resources/assets/js/vendor/jquery.lazyload/jquery.lazyload.min.js', 'public/js')
-   .js('resources/assets/js/vendor/isotope/jquery.isotope.min.js', 'public/js')
-   .js('resources/assets/js/vendor/owl.carousel/owl.carousel.min.js', 'public/js')
-   .js('resources/assets/js/vendor/magnific-popup/jquery.magnific-popup.min.js', 'public/js')
-   .js('resources/assets/js/vendor/vide/vide.min.js', 'public/js')
-   .sass('resources/assets/sass/app.scss', 'public/css');
+   .sass('resources/assets/sass/app.scss', 'public/css')
+    .styles([
+        'resources/assets/insta/bootstrap/css/bootstrap.min.css',
+        'resources/assets/insta/font-awesome/css/font-awesome.min.css',
+        'resources/assets/insta/popup/popup.css',
+        'resources/assets/insta/owl-carousel/owl.carousel.css',
+        'resources/assets/insta/owl-carousel/owl.theme.css',
+        'resources/assets/insta/style.blue.css',
+        'resources/assets/insta/responsive.css'
+    ], 'public/css/insta.css');
