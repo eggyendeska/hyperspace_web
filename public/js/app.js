@@ -40905,7 +40905,7 @@ if (false) {
 /* 41 */
 /***/ (function(module, exports) {
 
-throw new Error("Module build failed: ModuleBuildError: Module build failed: \n$link-hover-color:          darken($link-color, 15%) !default;\n                           ^\n      Argument `$color` of `darken($color, $amount)` must be a color\n\nBacktrace:\n\tresources/assets/sass/_variables.scss:152, in function `darken`\n\tresources/assets/sass/_variables.scss:152\n      in /home/vandalicious/Projects/hyperspace_web/resources/assets/sass/_variables.scss (line 152, column 29)\n    at runLoaders (/home/vandalicious/Projects/hyperspace_web/node_modules/webpack/lib/NormalModule.js:195:19)\n    at /home/vandalicious/Projects/hyperspace_web/node_modules/loader-runner/lib/LoaderRunner.js:364:11\n    at /home/vandalicious/Projects/hyperspace_web/node_modules/loader-runner/lib/LoaderRunner.js:230:18\n    at context.callback (/home/vandalicious/Projects/hyperspace_web/node_modules/loader-runner/lib/LoaderRunner.js:111:13)\n    at Object.asyncSassJobQueue.push [as callback] (/home/vandalicious/Projects/hyperspace_web/node_modules/sass-loader/lib/loader.js:55:13)\n    at Object.done [as callback] (/home/vandalicious/Projects/hyperspace_web/node_modules/neo-async/async.js:7921:18)\n    at options.error (/home/vandalicious/Projects/hyperspace_web/node_modules/node-sass/lib/index.js:294:32)");
+// removed by extract-text-webpack-plugin
 
 /***/ })
 /******/ ]);
