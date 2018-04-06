@@ -17,7 +17,6 @@ class CreateTeamsTable extends Migration
             $table->increments('id');
             $table->string('name');
             $table->string('email');
-            $table->text('skills');
             $table->text('quote');
             $table->string('image')->nullable()->default('users/default.png');
             $table->timestamps();

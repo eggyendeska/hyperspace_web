@@ -27,7 +27,7 @@ npm manifest:
       },
       "devDependencies": {
           "axios": "^0.17",
-          "bootstrap": "^4.0.0",
+          "bootstrap": "^3.3.7",
           "cross-env": "^5.1",
           "jquery": "^3.2",
           "laravel-mix": "^1.0",
@@ -7622,7 +7622,7 @@ Lockfile:
 
 Trace: 
   Error: Command failed.
-  Exit code: 2
+  Exit code: 1
   Command: sh
   Arguments: -c npm run development
   Directory: /home/vandalicious/Projects/hyperspace_web
