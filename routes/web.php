@@ -13,7 +13,6 @@
 
 Route::get('/', function () {
     return view('insta');
-    //return view('theme::welcome');
 });
 
 
