@@ -87,7 +87,7 @@
                         <i class="fa fa-heart"></i>
                     </div>
                     <div class="col-sm-10">
-                        <h2>ABOUT <span>US</span></h2>
+                        <h2><span>ABOUT</span> US</h2>
                         <h3>All you need to know about this dang software factory</h3>
                     </div>
                 </div>
@@ -104,7 +104,7 @@
                         <i class="fa fa-user-o"></i>
                     </div>
                     <div class="col-sm-10">
-                        <h2>TEAM<span>S</span></h2>
+                        <h2>OUR <span>TEAM</span></h2>
                         <h3>Meet our blacksmiths</h3>
                     </div>
                 </div>
@@ -121,7 +121,7 @@
                         <i class="fa fa-briefcase"></i>
                     </div>
                     <div class="col-sm-10">
-                        <h2>PORT<span>F</span>OLIO</h2>
+                        <h2><span>PORT</span>FOLIO</h2>
                         <h3>Have a spoon of our work</h3>
                     </div>
                 </div>
@@ -138,7 +138,7 @@
                         <i class="fa fa-envelope-o"></i>
                     </div>
                     <div class="col-sm-10">
-                        <h2>CO<span>N</span>TACT</h2>
+                        <h2><span>CONTACT</span> US</h2>
                         <h3>Say hello or find us</h3>
                     </div>
                 </div>
@@ -167,7 +167,7 @@
             <div class="mask">
             </div>
             <div class="main-heading">
-                <h1>PR<span>O</span>FILE</h1>
+                <h1><span>ABOUT</span> US</h1>
             </div>
         </div>
         
@@ -175,35 +175,12 @@
         
         <div class="content-container col-md-7 col-sm-12">
             
-            <!--( A ) Story of Glory -->
-            
-            <div class="story clearfix">
-                <h2 class="small-heading">STORY OF GLORY</h2>
-                <div class="col-lg-11 col-lg-offset-1">
-                    <div class="story-content clearfix">
-                        <img alt="" src="{{ asset('images/dp.jpg') }}" class="col-xs-offset-1 col-sm-offset-0 col-sm-4 col-xs-10">
-                        <div class="col-sm-8 col-xs-12">
-                            <h3>AN AWESOMW DESIGNER ON PLANET</h3>
-                            <p>
-                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent volutpat enim arcu, eget tempor nibh congue a. Maecenas faucibus sagittis nibh, in bibendum ex. Donec eu ornare augue, nec cursus arcu. Vivamus accumsan mauris nec nulla bibendum, et eleifend nisl tristique. Pellentesque fringilla lorem id nibh auctor sagittis. Suspendisse non nisl at velit malesuada bibendum.
-                            </p>
-                            <p>
-                                Quisque in tempor sapien, et cursus neque. Nunc pulvinar diam ac dapibus mollis. Etiam id iaculis lorem. Donec bibendum volutpat ante, eu consequat nisi suscipit at. Etiam interdum augue dolor, id auctor felis volutpat sed. Phasellus id ex ultrices, tempus leo eget, volutpat diam. In sit amet magna faucibus, molestie nisi in, hendrerit libero. Morbi auctor velit sagittis, elementum lorem eget, imperdiet nisl.
-                            </p>
-                            <p>
-                                Curabitur pharetra tincidunt lobortis. Duis dolor felis, sollicitudin ac dapibus quis, hendrerit ut est. Sed faucibus neque iaculis nisi accumsan, et condimentum nunc scelerisque. Etiam interdum augue dolor, id auctor felis volutpat sed. Phasellus id ex ultrices, tempus leo eget, volutpat diam. In sit amet magna faucibus, molestie nisi in, hendrerit libero. Morbi auctor velit sagittis, elementum lorem eget, imperdiet nisl. Fusce elementum orci in dignissim cursus.
-                            </p>
-                            <a href="#" class="hire-me">Hire Me</a>
-                            <a href="#">Download Resume</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+
             
             <!--( B ) What Can I Do -->
             
             <div class="services-container clearfix">
-                <h2 class="small-heading">WHAT CAN I DO?</h2>
+                <h2 class="small-heading">WHAT CAN WE DO?</h2>
                 <div class="services col-lg-4 col-md-6 col-sm-4">
                     <i class="fa fa-eyedropper"></i>
                     <h3>GRAPHIC DESIGN</h3>
@@ -265,6 +242,66 @@
                 <!-- Single Service Item [ END ]  -->
                 
             </div>
+
+            <div class="skills clearfix">
+                <h2 class="small-heading">SKILLS</h2>
+                <div class="clearfix">
+                    <div class="skill-container col-sm-4">
+                        <h3>Photoshop</h3>
+                        <div class="skill" data-percent="60">
+                            <span>60%</span>
+                        </div>
+                    </div>
+
+                    <!-- Single Skills Item [ END ] -->
+
+                    <div class="skill-container col-sm-4">
+                        <h3>Illustrator</h3>
+                        <div class="skill" data-percent="65">
+                            <span>65%</span>
+                        </div>
+                    </div>
+
+                    <!-- Single Skills Item [ END ] -->
+
+                    <div class="skill-container col-sm-4">
+                        <h3>Dreamweaver</h3>
+                        <div class="skill" data-percent="80">
+                            <span>80%</span>
+                        </div>
+                    </div>
+
+                    <!-- Single Skills Item [ END ] -->
+
+                    <div class="skill-container col-sm-4">
+                        <h3>Design</h3>
+                        <div class="skill" data-percent="55">
+                            <span>55%</span>
+                        </div>
+                    </div>
+
+                    <!-- Single Skills Item [ END ] -->
+
+                    <div class="skill-container col-sm-4">
+                        <h3>Development</h3>
+                        <div class="skill" data-percent="90">
+                            <span>90%</span>
+                        </div>
+                    </div>
+
+                    <!-- Single Skills Item [ END ] -->
+
+                    <div class="skill-container col-sm-4">
+                        <h3>Coding</h3>
+                        <div class="skill" data-percent="85">
+                            <span>85%</span>
+                        </div>
+                    </div>
+
+                    <!-- Single Skills Item [ END ] -->
+
+                </div>
+            </div>
             
             <!--( C ) Some Facts -->
             
@@ -306,7 +343,7 @@
             <div class="mask">
             </div>
             <div class="main-heading">
-                <h1>RE<span>S</span>UME</h1>
+                <h1>OUR <span>TEAM</span></h1>
             </div>
         </div>
         
@@ -315,165 +352,75 @@
         <div class="content-container col-md-7 col-sm-12">
             
             <!--( A ) Education Section -->
-            
             <div class="education clearfix">
-                <h2 class="small-heading">EDUCATION</h2>
-                
-                <div class="education-container col-lg-10 col-lg-offset-1 col-md-12 col-md-offset-0 col-sm-10 col-sm-offset-1">
-                    <div class="item">
-                        <div class="bullet hidden-xs">
-                        </div>
-                        <div class="education-content">
-                            <h3>University of Graphics<span> / October 2013 - March 2015</span></h3>
+                <h2 class="small-heading">Our Blacksmiths</h2>
+                <div class="col-lg-11 col-lg-offset-1">
+                    <div class="story-content clearfix">
+                        <img alt="" src="{{ asset('images/dp.jpg') }}" class="col-xs-offset-1 col-sm-offset-0 col-sm-4 col-xs-10">
+                        <div class="col-sm-8 col-xs-12">
+                            <h3>EGGY ENDESKA</h3>
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris et pulvinar ligula. Praesent maximus ornare quam, id consectetur dui eleifend nec. Nam consectetur orci id nulla varius, quis facilisis dui vulputate. Sed ultrices eu erat non mollis. Phasellus ut libero.
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent volutpat enim arcu, eget tempor nibh congue a. Maecenas faucibus sagittis nibh, in bibendum ex. Donec eu ornare augue, nec cursus arcu. Vivamus accumsan mauris nec nulla bibendum, et eleifend nisl tristique. Pellentesque fringilla lorem id nibh auctor sagittis. Suspendisse non nisl at velit malesuada bibendum.
                             </p>
+                            <a href="#" class="hire-me">Hire Me</a>
+                            <a href="#">Download Resume</a>
                         </div>
                     </div>
-                    
-                    <!-- Single Education Item [ END ] -->
-                    
-                    <div class="item">
-                        <div class="bullet hidden-xs">
-                        </div>
-                        <div class="education-content">
-                            <h3>University of Graphics<span> / October 2011 - March 2013</span></h3>
+                </div>
+                <div class="col-lg-11 col-lg-offset-1">
+                    <div class="story-content clearfix">
+                        <img alt="" src="{{ asset('images/dp.jpg') }}" class="col-xs-offset-1 col-sm-offset-0 col-sm-4 col-xs-10">
+                        <div class="col-sm-8 col-xs-12">
+                            <h3>EGGY ENDESKA</h3>
                             <p>
-                                In eu semper velit. Ut laoreet, sapien ac porta aliquam, est enim blandit nisl, ut semper dui justo a sapien. Nam orci ipsum, rutrum semper purus a, posuere molestie lorem. Sed ut nibh lobortis, semper ligula ut, tempus mi. In.
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent volutpat enim arcu, eget tempor nibh congue a. Maecenas faucibus sagittis nibh, in bibendum ex. Donec eu ornare augue, nec cursus arcu. Vivamus accumsan mauris nec nulla bibendum, et eleifend nisl tristique. Pellentesque fringilla lorem id nibh auctor sagittis. Suspendisse non nisl at velit malesuada bibendum.
                             </p>
+                            <a href="#" class="hire-me">Hire Me</a>
+                            <a href="#">Download Resume</a>
                         </div>
                     </div>
-                    
-                    <!-- Single Education Item [ END ] -->
-                    
-                    <div class="item">
-                        <div class="bullet hidden-xs">
-                        </div>
-                        <div class="education-content">
-                            <h3>University of Graphics<span> / October 2009 - March 2011</span></h3>
+                </div>
+                <div class="col-lg-11 col-lg-offset-1">
+                    <div class="story-content clearfix">
+                        <img alt="" src="{{ asset('images/dp.jpg') }}" class="col-xs-offset-1 col-sm-offset-0 col-sm-4 col-xs-10">
+                        <div class="col-sm-8 col-xs-12">
+                            <h3>EGGY ENDESKA</h3>
                             <p>
-                                Maecenas hendrerit euismod lorem, vitae mollis odio consectetur a. Aliquam at viverra nunc. Fusce neque lectus, vehicula eget lectus ac, consequat mollis erat. Sed sed interdum nisl. Nulla maximus odio vitae turpis rhoncus tempus. Donec vel elit quis metus rutrum.
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent volutpat enim arcu, eget tempor nibh congue a. Maecenas faucibus sagittis nibh, in bibendum ex. Donec eu ornare augue, nec cursus arcu. Vivamus accumsan mauris nec nulla bibendum, et eleifend nisl tristique. Pellentesque fringilla lorem id nibh auctor sagittis. Suspendisse non nisl at velit malesuada bibendum.
                             </p>
+                            <a href="#" class="hire-me">Hire Me</a>
+                            <a href="#">Download Resume</a>
                         </div>
                     </div>
-                    
-                    <!-- Single Education Item [ END ] -->
-                    
+                </div>
+                <div class="col-lg-11 col-lg-offset-1">
+                    <div class="story-content clearfix">
+                        <img alt="" src="{{ asset('images/dp.jpg') }}" class="col-xs-offset-1 col-sm-offset-0 col-sm-4 col-xs-10">
+                        <div class="col-sm-8 col-xs-12">
+                            <h3>EGGY ENDESKA</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent volutpat enim arcu, eget tempor nibh congue a. Maecenas faucibus sagittis nibh, in bibendum ex. Donec eu ornare augue, nec cursus arcu. Vivamus accumsan mauris nec nulla bibendum, et eleifend nisl tristique. Pellentesque fringilla lorem id nibh auctor sagittis. Suspendisse non nisl at velit malesuada bibendum.
+                            </p>
+                            <a href="#" class="hire-me">Hire Me</a>
+                            <a href="#">Download Resume</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-11 col-lg-offset-1">
+                    <div class="story-content clearfix">
+                        <img alt="" src="{{ asset('images/dp.jpg') }}" class="col-xs-offset-1 col-sm-offset-0 col-sm-4 col-xs-10">
+                        <div class="col-sm-8 col-xs-12">
+                            <h3>EGGY ENDESKA</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent volutpat enim arcu, eget tempor nibh congue a. Maecenas faucibus sagittis nibh, in bibendum ex. Donec eu ornare augue, nec cursus arcu. Vivamus accumsan mauris nec nulla bibendum, et eleifend nisl tristique. Pellentesque fringilla lorem id nibh auctor sagittis. Suspendisse non nisl at velit malesuada bibendum.
+                            </p>
+                            <a href="#" class="hire-me">Hire Me</a>
+                            <a href="#">Download Resume</a>
+                        </div>
+                    </div>
                 </div>
             </div>
-            
-            <!--( B ) Experience Section -->
-            
-            <div class="experience clearfix">
-                <h2 class="small-heading">EXPERIENCE</h2>
-                <div class="experience-container col-lg-10 col-lg-offset-1 col-md-12 col-md-offset-0 col-sm-10 col-sm-offset-1">
-                    <div class="item">
-                        <div class="bullet hidden-xs">
-                        </div>
-                        <div class="experience-content">
-                            <h3>Senior Web Designer<span> / October 2013 - March 2015<br>
-                            Lorem Ipsum, Inc.</span></h3>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris et pulvinar ligula. Praesent maximus ornare quam, id consectetur dui eleifend nec. Nam consectetur orci id nulla varius, quis facilisis dui vulputate. Sed ultrices eu erat non mollis. Phasellus ut libero.
-                            </p>
-                        </div>
-                    </div>
-                    
-                    <!-- Single Experience Item [ END ] -->
-                    
-                    <div class="item">
-                        <div class="bullet hidden-xs">
-                        </div>
-                        <div class="experience-content">
-                            <h3>Senior Web Designer<span> / October 2011 - March 2013<br>
-                            Lorem Ipsum, Inc.</span></h3>
-                            <p>
-                                In eu semper velit. Ut laoreet, sapien ac porta aliquam, est enim blandit nisl, ut semper dui justo a sapien. Nam orci ipsum, rutrum semper purus a, posuere molestie lorem. Sed ut nibh lobortis, semper ligula ut, tempus mi. In.
-                            </p>
-                        </div>
-                    </div>
-                    
-                    <!-- Single Experience Item [ END ] -->
-                    
-                    <div class="item">
-                        <div class="bullet hidden-xs">
-                        </div>
-                        <div class="experience-content">
-                            <h3>Senior Web Designer<span> / October 2009 - March 2011<br>
-                            Lorem Ipsum, Inc.</span></h3>
-                            <p>
-                                Maecenas hendrerit euismod lorem, vitae mollis odio consectetur a. Aliquam at viverra nunc. Fusce neque lectus, vehicula eget lectus ac, consequat mollis erat. Sed sed interdum nisl. Nulla maximus odio vitae turpis rhoncus tempus. Donec vel elit quis metus rutrum.
-                            </p>
-                        </div>
-                    </div>
-                    
-                    <!-- Single Experience Item [ END ] -->
-                    
-                </div>
-            </div>
-            
-            <!--( C ) Skills Section -->
-            
-            <div class="skills clearfix">
-                <h2 class="small-heading">SKILLS</h2>
-                <div class="clearfix">
-                    <div class="skill-container col-sm-4">
-                        <h3>Photoshop</h3>
-                        <div class="skill" data-percent="60">
-                            <span>60%</span>
-                        </div>
-                    </div>
-                    
-                    <!-- Single Skills Item [ END ] -->
-                    
-                    <div class="skill-container col-sm-4">
-                        <h3>Illustrator</h3>
-                        <div class="skill" data-percent="65">
-                            <span>65%</span>
-                        </div>
-                    </div>
-                    
-                    <!-- Single Skills Item [ END ] -->
-                    
-                    <div class="skill-container col-sm-4">
-                        <h3>Dreamweaver</h3>
-                        <div class="skill" data-percent="80">
-                            <span>80%</span>
-                        </div>
-                    </div>
-                    
-                    <!-- Single Skills Item [ END ] -->
-                    
-                    <div class="skill-container col-sm-4">
-                        <h3>Design</h3>
-                        <div class="skill" data-percent="55">
-                            <span>55%</span>
-                        </div>
-                    </div>
-                    
-                    <!-- Single Skills Item [ END ] -->
-                    
-                    <div class="skill-container col-sm-4">
-                        <h3>Development</h3>
-                        <div class="skill" data-percent="90">
-                            <span>90%</span>
-                        </div>
-                    </div>
-                    
-                    <!-- Single Skills Item [ END ] -->
-                    
-                    <div class="skill-container col-sm-4">
-                        <h3>Coding</h3>
-                        <div class="skill" data-percent="85">
-                            <span>85%</span>
-                        </div>
-                    </div>
-                    
-                    <!-- Single Skills Item [ END ] -->
-                    
-                </div>
-            </div>
-            
+
             <!--( C ) Footer Section -->
             
             <div class="footer clearfix">
@@ -497,7 +444,7 @@
             <div class="mask">
             </div>
             <div class="main-heading">
-                <h1>POR<span>T</span>FOLIO</h1>
+                <h1><span>PORT</span>FOLIO</h1>
             </div>
         </div>
         
@@ -920,7 +867,7 @@
             <div class="mask">
             </div>
             <div class="main-heading">
-                <h1>CO<span>N</span>TACT</h1>
+                <h1><span>CONTACT</span> US</h1>
             </div>
         </div>
         
