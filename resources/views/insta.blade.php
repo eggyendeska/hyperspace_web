@@ -323,9 +323,9 @@
             <!--( D ) Footer -->
             
             <div class="footer clearfix">
-                <a href="#">JOHN DOE</a>
+                <a href="#">HyperSpace Software Indonesia</a>
                 <p>
-                    Copyright © 2015 All right reserved
+                    Copyright © 2018 All right reserved
                 </p>
             </div>
         </div>
@@ -354,79 +354,38 @@
             <!--( A ) Education Section -->
             <div class="education clearfix">
                 <h2 class="small-heading">Our Blacksmiths</h2>
+                @foreach($teams as $team)
                 <div class="col-lg-11 col-lg-offset-1">
                     <div class="story-content clearfix">
-                        <img alt="" src="{{ asset('images/dp.jpg') }}" class="col-xs-offset-1 col-sm-offset-0 col-sm-4 col-xs-10">
+                        <img alt="" src="{{ Voyager::image( $team->image ) }}" class="col-xs-offset-1 col-sm-offset-0 col-sm-4 col-xs-10">
                         <div class="col-sm-8 col-xs-12">
-                            <h3>EGGY ENDESKA</h3>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent volutpat enim arcu, eget tempor nibh congue a. Maecenas faucibus sagittis nibh, in bibendum ex. Donec eu ornare augue, nec cursus arcu. Vivamus accumsan mauris nec nulla bibendum, et eleifend nisl tristique. Pellentesque fringilla lorem id nibh auctor sagittis. Suspendisse non nisl at velit malesuada bibendum.
-                            </p>
-                            <a href="#" class="hire-me">Hire Me</a>
-                            <a href="#">Download Resume</a>
+                            <h3>{{ $team->name }}</h3>
+
+                                {{ $team->quote }}
+
+                            <div class="clearfix"></div>
+                            @foreach($team->skills as $skill)
+                                <span class="label label-info"> {{$skill->name}}</span>
+                            @endforeach
+                            <div class="col-xs-12 social-media pull-left" style="text-align: left; margin-top: 10px; margin-left: 0px; padding-left: 0px;">
+                                <a href="#" class="btn-sm fa fa-facebook" data-toggle="tooltip" title="Facebook"></a>
+                                <a href="#" class="fa fa-twitter" data-toggle="tooltip" title="Twitter"></a>
+                                <a href="#" class="fa fa-linkedin" data-toggle="tooltip" title="Linkedin"></a>
+                                <a href="#" class="fa fa-instagram" data-toggle="tooltip" title="Instagram"></a>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-11 col-lg-offset-1">
-                    <div class="story-content clearfix">
-                        <img alt="" src="{{ asset('images/dp.jpg') }}" class="col-xs-offset-1 col-sm-offset-0 col-sm-4 col-xs-10">
-                        <div class="col-sm-8 col-xs-12">
-                            <h3>EGGY ENDESKA</h3>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent volutpat enim arcu, eget tempor nibh congue a. Maecenas faucibus sagittis nibh, in bibendum ex. Donec eu ornare augue, nec cursus arcu. Vivamus accumsan mauris nec nulla bibendum, et eleifend nisl tristique. Pellentesque fringilla lorem id nibh auctor sagittis. Suspendisse non nisl at velit malesuada bibendum.
-                            </p>
-                            <a href="#" class="hire-me">Hire Me</a>
-                            <a href="#">Download Resume</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-11 col-lg-offset-1">
-                    <div class="story-content clearfix">
-                        <img alt="" src="{{ asset('images/dp.jpg') }}" class="col-xs-offset-1 col-sm-offset-0 col-sm-4 col-xs-10">
-                        <div class="col-sm-8 col-xs-12">
-                            <h3>EGGY ENDESKA</h3>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent volutpat enim arcu, eget tempor nibh congue a. Maecenas faucibus sagittis nibh, in bibendum ex. Donec eu ornare augue, nec cursus arcu. Vivamus accumsan mauris nec nulla bibendum, et eleifend nisl tristique. Pellentesque fringilla lorem id nibh auctor sagittis. Suspendisse non nisl at velit malesuada bibendum.
-                            </p>
-                            <a href="#" class="hire-me">Hire Me</a>
-                            <a href="#">Download Resume</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-11 col-lg-offset-1">
-                    <div class="story-content clearfix">
-                        <img alt="" src="{{ asset('images/dp.jpg') }}" class="col-xs-offset-1 col-sm-offset-0 col-sm-4 col-xs-10">
-                        <div class="col-sm-8 col-xs-12">
-                            <h3>EGGY ENDESKA</h3>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent volutpat enim arcu, eget tempor nibh congue a. Maecenas faucibus sagittis nibh, in bibendum ex. Donec eu ornare augue, nec cursus arcu. Vivamus accumsan mauris nec nulla bibendum, et eleifend nisl tristique. Pellentesque fringilla lorem id nibh auctor sagittis. Suspendisse non nisl at velit malesuada bibendum.
-                            </p>
-                            <a href="#" class="hire-me">Hire Me</a>
-                            <a href="#">Download Resume</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-11 col-lg-offset-1">
-                    <div class="story-content clearfix">
-                        <img alt="" src="{{ asset('images/dp.jpg') }}" class="col-xs-offset-1 col-sm-offset-0 col-sm-4 col-xs-10">
-                        <div class="col-sm-8 col-xs-12">
-                            <h3>EGGY ENDESKA</h3>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent volutpat enim arcu, eget tempor nibh congue a. Maecenas faucibus sagittis nibh, in bibendum ex. Donec eu ornare augue, nec cursus arcu. Vivamus accumsan mauris nec nulla bibendum, et eleifend nisl tristique. Pellentesque fringilla lorem id nibh auctor sagittis. Suspendisse non nisl at velit malesuada bibendum.
-                            </p>
-                            <a href="#" class="hire-me">Hire Me</a>
-                            <a href="#">Download Resume</a>
-                        </div>
-                    </div>
-                </div>
+
+                @endforeach
             </div>
 
             <!--( C ) Footer Section -->
             
             <div class="footer clearfix">
-                <a href="#">JOHN DOE</a>
+                <a href="#">HyperSpace Software Indonesia</a>
                 <p>
-                    Copyright © 2015 All right reserved
+                    Copyright © 2018 All right reserved
                 </p>
             </div>
         </div>
@@ -818,7 +777,7 @@
                             <p>
                                 <i class="fa fa-quote-left"></i>Etiam sollicitudin ornare pulvinar. Nullam a vulputate lectus. Maecenas a nisl leo. Curabitur ante nisi, pellentesque et turpis eget, iaculis porta lorem. Aenean in justo nec turpis maximus.<i class="fa fa-quote-right"></i>
                             </p>
-                            <h3>John Doe</h3>
+                            <h3>HyperSpace Software Indonesia</h3>
                         </div>
                         
                         <!-- Single Testimonial Item [ END ] -->
@@ -847,9 +806,9 @@
             <!-- Footer -->
             
             <div class="footer clearfix">
-                <a href="#">JOHN DOE</a>
+                <a href="#">HyperSpace Software Indonesia</a>
                 <p>
-                    Copyright © 2015 All right reserved
+                    Copyright © 2018 All right reserved
                 </p>
             </div>
         </div>
@@ -1005,9 +964,9 @@
             <!-- ( D ) Footer -->
             
             <div class="footer clearfix">
-                <a href="#">JOHN DOE</a>
+                <a href="#">HyperSpace Software Indonesia</a>
                 <p>
-                    Copyright © 2015 All right reserved
+                    Copyright © 2018 All right reserved
                 </p>
             </div>
         </div>

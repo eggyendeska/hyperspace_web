@@ -595,19 +595,9 @@ body {
     margin-top: 0;
 }
 
-.story-content div p {
-    text-indent: 25px;
-}
 
 .story-content div a {
-    border: 1px solid #00B6F9;
     color: #00B6F9;
-    display: block;
-    float: left;
-    margin: 29px 5px;
-    padding: 10px 25px;
-    text-decoration: none;
-    text-align: center;
     -webkir-transition: all 0.3s;
     -moz-transition: all 0.3s;
     -ms-transition: all 0.3s;
@@ -616,8 +606,7 @@ body {
 }
 
 .story-content div a:hover {
-    background: #00B6F9;
-    color: #fff;
+    color: #000;
 }
 
 /* ( b ) What Can I Do */
