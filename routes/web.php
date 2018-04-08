@@ -15,7 +15,9 @@
     return view('insta');
 });*/
 
-Route::get('/', 'PublicController');
+
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
 });
+
+Route::get('/', 'PublicController');
