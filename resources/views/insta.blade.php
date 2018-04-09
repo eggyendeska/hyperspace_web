@@ -53,7 +53,7 @@
     <!--( a ) Introduction -->
 
     <div class="introduction">
-        <img alt="" src="{{ asset('images/home_dp.jpg') }}">
+        <img alt="" src="{{ asset('images/astronaut-astronomy-cosmos-2152.jpg') }}">
         <div class="mask">
         </div>
         <div class="intro-content">
@@ -308,7 +308,7 @@
         <div class="facts clearfix">
             <div class="col-xs-4">
                 <h3>PROJECTS DONE</h3>
-                <h1>300+</h1>
+                <h1>{{ $projects->count() }}+</h1>
             </div>
             <div class="col-xs-4">
                 <h3>HAPPY CLIENTS</h3>
@@ -467,42 +467,14 @@
             <h2 class="small-heading">SOME WORDS FROM CLIENTS</h2>
             <div class="testimonials-container col-sm-10 col-sm-offset-1">
                 <div class="owl-carousel">
+                    @foreach ($testimonials as $testimonial)
                     <div>
                         <p>
-                            <i class="fa fa-quote-left"></i>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ullamcorper aliquet nulla, eget feugiat mi pellentesque sed. In neque erat, vulputate eu justo et, posuere scelerisque nulla.<i class="fa fa-quote-right"></i>
+                            <i class="fa fa-quote-left"></i>{{ $testimonial->testimonial }}<i class="fa fa-quote-right"></i>
                         </p>
-                        <h3>Justin Peterson</h3>
+                        <h3>{{ $testimonial->client_name }}</h3>
                     </div>
-
-                    <!-- Single Testimonial Item [ END ] -->
-
-                    <div>
-                        <p>
-                            <i class="fa fa-quote-left"></i>Sed vulputate nibh id molestie efficitur. Maecenas cursus est a quam ullamcorper, eu iaculis ullamcorper. Maecenas pretium aliquet mi, tincidunt semper lectus rutrum et.<i class="fa fa-quote-right"></i>
-                        </p>
-                        <h3>Cristina Devis</h3>
-                    </div>
-
-                    <!-- Single Testimonial Item [ END ] -->
-
-                    <div>
-                        <p>
-                            <i class="fa fa-quote-left"></i>Ut tristique pellentesque arcu, in hendrerit urna rhoncus sed. Vivamus vel diam ex. Nunc nunc vitae lectus facilisis imperdiet. Proin pretium tempus dui, et vehicula purus.<i class="fa fa-quote-right"></i>
-                        </p>
-                        <h3>Jonny Watts</h3>
-                    </div>
-
-                    <!-- Single Testimonial Item [ END ] -->
-
-                    <div>
-                        <p>
-                            <i class="fa fa-quote-left"></i>Etiam sollicitudin ornare pulvinar. Nullam a vulputate lectus. Maecenas a nisl leo. Curabitur ante nisi, pellentesque et turpis eget, iaculis porta lorem. Aenean in justo nec turpis maximus.<i class="fa fa-quote-right"></i>
-                        </p>
-                        <h3>HyperSpace Software Indonesia</h3>
-                    </div>
-
-                    <!-- Single Testimonial Item [ END ] -->
-
+                    @endforeach
                 </div>
             </div>
         </div>
@@ -512,7 +484,7 @@
         <div class="facts clearfix">
             <div class="col-xs-4">
                 <h3>PROJECTS DONE</h3>
-                <h1>300+</h1>
+                <h1>{{ $projects->count() }}+</h1>
             </div>
             <div class="col-xs-4">
                 <h3>HAPPY CLIENTS</h3>
