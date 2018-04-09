@@ -12,7 +12,7 @@ let mix = require('laravel-mix');
  */
 
 mix.js('resources/assets/js/app.js', 'public/js')
-   .sass('resources/assets/sass/app.scss', 'public/css')
+   // .sass('resources/assets/sass/custom.scss', 'public/css')
    .copy([
        'resources/assets/insta/js/script.js',
        'resources/assets/insta/js/jquery-1.11.3.min.js',
@@ -29,10 +29,12 @@ mix.js('resources/assets/js/app.js', 'public/js')
    ], 'public/js/insta')
    .styles([
        'resources/assets/insta/library/bootstrap/css/bootstrap.min.css',
-       //'resources/assets/insta/library/font-awesome/css/font-awesome.min.css',
+       // 'resources/assets/insta/library/font-awesome/css/font-awesome.min.css',
+       'resources/assets/sass/custom.css',
        'resources/assets/insta/library/popup/popup.css',
        'resources/assets/insta/library/owl-carousel/owl.carousel.css',
        'resources/assets/insta/library/owl-carousel/owl.theme.css',
        'resources/assets/insta/css/style.blue.css',
        'resources/assets/insta/css/responsive.css'
+
    ], 'public/css/insta.css');

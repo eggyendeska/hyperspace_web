@@ -15,21 +15,20 @@
     @stack('meta')
 
     <title>{{ config('app.name', 'Hyperspace Software Indonesia') }}</title>
-
-    <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <link href="{{ asset('css/insta.css') }}" rel="stylesheet">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-
-
-    <!--( c ) Javascript For Browser Support Issues -->
-
     <script type="text/javascript" src="{{ asset('js/insta/modernizr.js') }}"></script>
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400" rel="stylesheet">
+    <style>
+      html{
+        font-family: 'Raleway',sans-serif;
+      }
+    </style>
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-
 </head>
 <body>
 
@@ -37,12 +36,17 @@
 2 ) Preloader
 ============-->
 <div id="preloader">
-    <div class="loader">
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-    </div>
+<div class="astronaut" data-js="astro">
+<div class="head"></div>
+<div class="arm arm-left"></div>
+<div class="arm arm-right"></div>
+<div class="body">
+  <div class="panel"></div>
+</div>
+<div class="leg leg-left"></div>
+<div class="leg leg-right"></div>
+<div class="schoolbag"></div>
+</div>
 </div>
 <!--=========
 3 ) Homepage
@@ -53,7 +57,7 @@
     <!--( a ) Introduction -->
 
     <div class="introduction">
-        <img alt="" src="{{ asset('images/astronaut-astronomy-cosmos-2152.jpg') }}">
+        <!-- <img alt="" src="{{ asset('images/astronaut-astronomy-cosmos-2152.jpg') }}"> -->
         <div class="mask">
         </div>
         <div class="intro-content">

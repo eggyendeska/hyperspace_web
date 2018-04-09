@@ -1,5 +1,5 @@
 /*
---------------------------------------------------------* 
+--------------------------------------------------------*
 
 [INSTA, Main Stylesheet ]
 
@@ -7,7 +7,7 @@
 
     Name         : INSTA - Responsive Onepage Resume Template
 
-    Version      :  1.0 
+    Version      :  1.0
 
     Author       :  Pixel_Factory
 
@@ -70,8 +70,6 @@
                        1 ) Font Import From Google Fonts
                       -----------------------------------*/
 
-@import url(http://fonts.googleapis.com/css?family=Hind:300,500);
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,400italic);
 
                     /*----------------------
                        2 ) Preloader Styles
@@ -98,8 +96,8 @@
     -ms-transform: translate(-50%, -50%) rotate(45deg) translate3d(0, 0, 0);
     -o-transform: translate(-50%, -50%) rotate(45deg) translate3d(0, 0, 0);
     transform: translate(-50%, -50%) rotate(45deg) translate3d(0, 0, 0);
-    -webkit-animation: loader 1.2s infinite ease-in-out;
-    animation: loader 1.2s infinite ease-in-out;
+    -webkit-animation: loader 2.5s infinite ease-in-out;
+    animation: loader 2.5s infinite ease-in-out;
 }
 
 .loader span {
@@ -109,8 +107,8 @@
     height: 20px;
     opacity: 0.8;
     background-color: #00B6F9;
-    -webkit-animation: loaderBlock 1.2s infinite ease-in-out both;
-    animation: loaderBlock 1.2s infinite ease-in-out both;
+    -webkit-animation: loaderBlock 2.5s infinite ease-in-out both;
+    animation: loaderBlock 2.5s infinite ease-in-out both;
 }
 
 .loader span:nth-child(1) {
@@ -146,7 +144,7 @@
         width: 80px;
         height: 80px;
     }
-} 
+}
 
 @-webkit-keyframes loaderBlock {
     0%, 30% {
@@ -220,7 +218,7 @@
 }
 
 @keyframes loaderBlockInverse {
-    
+
     0%, 20% {
         -webkit-transform: rotate(0);
         -moz-transform: rotate(0);
@@ -259,7 +257,7 @@ body,
 textarea,
 button,
 input {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 h1,
@@ -268,7 +266,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Hind', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 p {
@@ -1241,7 +1239,7 @@ body {
 }
 
                     /*-------------
-                       11 ) Footer 
+                       11 ) Footer
                       -------------*/
 
 .footer {
