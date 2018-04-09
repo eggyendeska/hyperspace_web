@@ -8,7 +8,7 @@
 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no;">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <meta name="csrf-param" content="_token">
@@ -67,7 +67,7 @@
             <p class="social-media hidden-xs">
                 <a href="#" class="fab fa-facebook-f" data-toggle="tooltip" title="Facebook"></a>
                 <a href="#" class="fab fa-twitter" data-toggle="tooltip" title="Twitter"></a>
-                <a href="#" class="fab fa-google-plus-g" data-toggle="tooltip" title="Google+"></a>
+                <a href="www.google.com" class="fab fa-google-plus-g" data-toggle="tooltip" title="Google+"></a>
                 <a href="#" class="fab fa-linkedin" data-toggle="tooltip" title="Linkedin"></a>
                 <a href="#" class="fab fa-behance" data-toggle="tooltip" title="Behance"></a>
                 <a href="#" class="fab fa-flickr" data-toggle="tooltip" title="Flicker"></a>
@@ -374,10 +374,10 @@
                                 <span class="label label-info"> {{$skill->name}}</span>
                             @endforeach
                             <div class="col-xs-12 social-media pull-left" style="text-align: left; margin-top: 10px; margin-left: 0px; padding-left: 0px;">
-                                <a href="{{ $team->facebook }}" class="btn-sm fa fa-facebook" data-toggle="tooltip" title="Facebook"></a>
-                                <a href="{{ $team->twitter }}" class="fa fa-twitter" data-toggle="tooltip" title="Twitter"></a>
-                                <a href="{{ $team->linkedin }}" class="fa fa-linkedin" data-toggle="tooltip" title="Linkedin"></a>
-                                <a href="{{ $team->instagram }}" class="fa fa-instagram" data-toggle="tooltip" title="Instagram"></a>
+                                <a href="{{ $team->facebook }}" class="fab fa-facebook-f" data-toggle="tooltip" title="Facebook"></a>
+                                <a href="{{ $team->twitter }}" class="fab fa-twitter" data-toggle="tooltip" title="Twitter"></a>
+                                <a href="{{ $team->linkedin }}" class="fab fa-linkedin" data-toggle="tooltip" title="Linkedin"></a>
+                                <a href="{{ $team->instagram }}" class="fab fa-instagram" data-toggle="tooltip" title="Instagram"></a>
                             </div>
                         </div>
                     </div>
@@ -645,13 +645,13 @@
             <!-- Single Contact Details Item [ END ] -->
 
             <div class="col-xs-12 social-media">
-                <a href="#" class="fa fa-facebook" data-toggle="tooltip" title="Facebook"></a>
-                <a href="#" class="fa fa-twitter" data-toggle="tooltip" title="Twitter"></a>
-                <a href="#" class="fa fa-plus" data-toggle="tooltip" title="Google+"></a>
-                <a href="#" class="fa fa-linkedin" data-toggle="tooltip" title="Linkedin"></a>
-                <a href="#" class="fa fa-behance" data-toggle="tooltip" title="Behance"></a>
-                <a href="#" class="fa fa-flickr" data-toggle="tooltip" title="Flicker"></a>
-                <a href="#" class="fa fa-instagram" data-toggle="tooltip" title="Instagram"></a>
+                <a href="#" class="fab fa-facebook" data-toggle="tooltip" title="Facebook"></a>
+                <a href="#" class="fab fa-twitter" data-toggle="tooltip" title="Twitter"></a>
+                <a href="#" class="fab fa-plus" data-toggle="tooltip" title="Google+"></a>
+                <a href="#" class="fab fa-linkedin" data-toggle="tooltip" title="Linkedin"></a>
+                <a href="#" class="fab fa-behance" data-toggle="tooltip" title="Behance"></a>
+                <a href="#" class="fab fa-flickr" data-toggle="tooltip" title="Flicker"></a>
+                <a href="#" class="fab fa-instagram" data-toggle="tooltip" title="Instagram"></a>
             </div>
 
             <!-- Social Media Icons [ END ] -->
