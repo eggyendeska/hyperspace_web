@@ -364,7 +364,7 @@
                         <img alt="" src="{{ Voyager::image( $team->image ) }}" class="col-xs-offset-1 col-sm-offset-0 col-sm-4 col-xs-10">
                         <div class="col-sm-8 col-xs-12">
                             <h3>{{ $team->name }}</h3>
-                            <small><i>{{ $team->email }}</i></small>
+                            <small><i>{{ $team->specialty }} | {{ $team->email }}</i></small>
                             <hr style="margin: 5px 0px;">
                             <div class="clearfix"></div>
                             <p>{{ $team->quote }}</p>

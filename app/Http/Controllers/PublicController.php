@@ -12,7 +12,7 @@ class PublicController extends Controller
 {
     public function __invoke()
     {
-        $teams = Team::with('skills')->get();
+        $teams = Team::with('skills')->orderBy('order', 'asc')->get();
         $projectCategories = ProjectCategory::all();
         $projects = Project::all();
         $testimonials = Testimonial::all();

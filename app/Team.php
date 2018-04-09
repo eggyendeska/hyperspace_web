@@ -15,7 +15,7 @@ class Team extends Model
      * @var array
      */
     protected $fillable = [
-        'name', 'email', 'quote', 'image'
+        'name', 'email', 'quote', 'image', 'order', 'specialty'
     ];
 
     public function skills()
