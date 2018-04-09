@@ -109,7 +109,7 @@
                 </div>
                 <div class="col-sm-10">
                     <h2>OUR <span>TEAM</span></h2>
-                    <h3>Meet our blacksmiths</h3>
+                    <h3>Meet our astronauts</h3>
                 </div>
             </div>
         </div>
@@ -184,7 +184,7 @@
         <!--( B ) What Can I Do -->
 
         <div class="services-container clearfix">
-            <h2 class="small-heading">WHAT CAN WE DO?</h2>
+            <h2 class="small-heading">What can we do?</h2>
             <div class="services col-lg-4 col-md-6 col-sm-4">
                 <i class="fa fa-eyedropper"></i>
                 <h3>GRAPHIC DESIGN</h3>
@@ -248,7 +248,7 @@
         </div>
 
         <div class="skills clearfix">
-            <h2 class="small-heading">SKILLS</h2>
+            <h2 class="small-heading">Skills</h2>
             <div class="clearfix">
                 <div class="skill-container col-sm-4">
                     <h3>Photoshop</h3>
@@ -357,7 +357,7 @@
 
         <!--( A ) Education Section -->
         <div class="education clearfix">
-            <h2 class="small-heading">Our Blacksmiths</h2>
+            <h2 class="small-heading">Our astronauts</h2>
             @foreach($teams as $team)
                 <div class="col-lg-11 col-lg-offset-1">
                     <div class="story-content clearfix">
@@ -420,7 +420,7 @@
         <!--( A ) Portfolio -->
 
         <div class="portfolio">
-            <h2 class="small-heading">PORTFOLIO</h2>
+            <h2 class="small-heading">Explored projects</h2>
             <div class="project-container">
 
                 <div class="project-controls">
@@ -468,7 +468,7 @@
         <!--( B ) Testimonials Section -->
 
         <div class="testimonials clearfix">
-            <h2 class="small-heading">SOME WORDS FROM CLIENTS</h2>
+            <h2 class="small-heading">Some words from client</h2>
             <div class="testimonials-container col-sm-10 col-sm-offset-1">
                 <div class="owl-carousel">
                     @foreach ($testimonials as $testimonial)
@@ -534,7 +534,7 @@
         <!--( A ) Contact Form -->
 
         <div>
-            <h2 class="small-heading">SAY HELLO!</h2>
+            <h2 class="small-heading">Say hello!</h2>
 
             <div class="contact-form col-sm-11 clearfix">
 
@@ -589,7 +589,7 @@
         <!--( C ) Contact Details -->
 
         <div class="contact-details clearfix">
-            <h2 class="small-heading">CONTACT DETAILS</h2>
+            <h2 class="small-heading">Contact details</h2>
             <div class="contact col-sm-4">
                 <p>
                     <i class="fa fa-map-marker"></i><br>
