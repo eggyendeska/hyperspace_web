@@ -17,7 +17,7 @@
     <title>{{ config('app.name', 'Hyperspace Software Indonesia') }}</title>
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <link href="{{ asset('css/insta.css') }}" rel="stylesheet">
-    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
     <script type="text/javascript" src="{{ asset('js/insta/modernizr.js') }}"></script>
     <link href="https://fonts.googleapis.com/css?family=Raleway:300,400" rel="stylesheet">
     <style>
@@ -61,17 +61,17 @@
         <div class="mask">
         </div>
         <div class="intro-content">
-            <h2 style="text-decoration: none">Hello there! Welcome to</h2>
-            <h1><span>Hyper</span>Space</h1>
-            <h2>Software Indonesia</h2>
+            <h2 style="text-decoration: none"></h2>
+            <h1><span>Hyper</span>Space <small>Software Indonesia</small></h1>
+            <!-- <h2>Give us your money, we'll give you an alien techology</h2> -->
             <p class="social-media hidden-xs">
-                <a href="#" class="fa fa-facebook" data-toggle="tooltip" title="Facebook"></a>
-                <a href="#" class="fa fa-twitter" data-toggle="tooltip" title="Twitter"></a>
-                <a href="#" class="fa fa-plus" data-toggle="tooltip" title="Google+"></a>
-                <a href="#" class="fa fa-linkedin" data-toggle="tooltip" title="Linkedin"></a>
-                <a href="#" class="fa fa-behance" data-toggle="tooltip" title="Behance"></a>
-                <a href="#" class="fa fa-flickr" data-toggle="tooltip" title="Flicker"></a>
-                <a href="#" class="fa fa-instagram" data-toggle="tooltip" title="Instagram"></a>
+                <a href="#" class="fab fa-facebook-f" data-toggle="tooltip" title="Facebook"></a>
+                <a href="#" class="fab fa-twitter" data-toggle="tooltip" title="Twitter"></a>
+                <a href="#" class="fab fa-google-plus-g" data-toggle="tooltip" title="Google+"></a>
+                <a href="#" class="fab fa-linkedin" data-toggle="tooltip" title="Linkedin"></a>
+                <a href="#" class="fab fa-behance" data-toggle="tooltip" title="Behance"></a>
+                <a href="#" class="fab fa-flickr" data-toggle="tooltip" title="Flicker"></a>
+                <a href="#" class="fab fa-instagram" data-toggle="tooltip" title="Instagram"></a>
             </p>
 
             <!-- Social Media Icons [ END ] -->
@@ -92,7 +92,7 @@
                 </div>
                 <div class="col-sm-10">
                     <h2><span>ABOUT</span> US</h2>
-                    <h3>All you need to know about this dang software factory</h3>
+                    <h3>From big bang to universe expansion, read here.</h3>
                 </div>
             </div>
         </div>
@@ -109,7 +109,7 @@
                 </div>
                 <div class="col-sm-10">
                     <h2>OUR <span>TEAM</span></h2>
-                    <h3>Meet our astronauts</h3>
+                    <h3>Meet our Scientist</h3>
                 </div>
             </div>
         </div>
@@ -125,8 +125,8 @@
                     <i class="fa fa-briefcase"></i>
                 </div>
                 <div class="col-sm-10">
-                    <h2><span>PORT</span>FOLIO</h2>
-                    <h3>Have a spoon of our work</h3>
+                    <h2><span>OUR</span> PORTFOLIO</h2>
+                    <h3>See the galaxies we've built</h3>
                 </div>
             </div>
         </div>
@@ -364,7 +364,7 @@
                         <img alt="" src="{{ Voyager::image( $team->image ) }}" class="col-xs-offset-1 col-sm-offset-0 col-sm-4 col-xs-10">
                         <div class="col-sm-8 col-xs-12">
                             <h3>{{ $team->name }}</h3>
-                            <small><i>{{ $team->specialty }} | {{ $team->email }}</i></small>
+                            <small><i>{{ $team->email }}</i></small>
                             <hr style="margin: 5px 0px;">
                             <div class="clearfix"></div>
                             <p>{{ $team->quote }}</p>
