@@ -12,7 +12,7 @@ let mix = require('laravel-mix');
  */
 
 mix.js('resources/assets/js/app.js', 'public/js')
-   // .sass('resources/assets/sass/custom.scss', 'public/css')
+   .sass('resources/assets/sass/app.scss', 'public/css')
    .copy([
        'resources/assets/insta/js/script.js',
        'resources/assets/insta/js/jquery-1.11.3.min.js',

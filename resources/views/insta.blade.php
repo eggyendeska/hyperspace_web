@@ -1,15 +1,9 @@
 <!doctype html>
 <html lang="en" class="no-js">
 <head>
-
-    <!--===============
-    1 ) Head Section
-    ================-->
-
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <meta name="csrf-param" content="_token">
     @stack('meta')
@@ -17,7 +11,7 @@
     <title>{{ config('app.name', 'Hyperspace Software Indonesia') }}</title>
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <link href="{{ asset('css/insta.css') }}" rel="stylesheet">
-    <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <script type="text/javascript" src="{{ asset('js/insta/modernizr.js') }}"></script>
     <link href="https://fonts.googleapis.com/css?family=Raleway:300,400" rel="stylesheet">
     <style>
@@ -25,10 +19,6 @@
         font-family: 'Raleway',sans-serif;
       }
     </style>
-    <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
 </head>
 <body>
 
@@ -57,21 +47,21 @@
     <!--( a ) Introduction -->
 
     <div class="introduction">
-        <!-- <img alt="" src="{{ asset('images/astronaut-astronomy-cosmos-2152.jpg') }}"> -->
+        <img alt="" src="{{ asset('images/astronaut-astronomy-cosmos-2152.jpg') }}">
         <div class="mask">
         </div>
         <div class="intro-content">
             <h2 style="text-decoration: none"></h2>
             <h1><span>Hyper</span>Space <small>Software Indonesia</small></h1>
             <!-- <h2>Give us your money, we'll give you an alien techology</h2> -->
-            <p class="social-media hidden-xs">
-                <a href="#" class="fab fa-facebook-f" data-toggle="tooltip" title="Facebook"></a>
-                <a href="#" class="fab fa-twitter" data-toggle="tooltip" title="Twitter"></a>
-                <a href="www.google.com" class="fab fa-google-plus-g" data-toggle="tooltip" title="Google+"></a>
-                <a href="#" class="fab fa-linkedin" data-toggle="tooltip" title="Linkedin"></a>
-                <a href="#" class="fab fa-behance" data-toggle="tooltip" title="Behance"></a>
-                <a href="#" class="fab fa-flickr" data-toggle="tooltip" title="Flicker"></a>
-                <a href="#" class="fab fa-instagram" data-toggle="tooltip" title="Instagram"></a>
+            <p class="social-media">
+                <a href="#" class="fa fa-facebook" data-toggle="tooltip" title="Facebook"></a>
+                <a href="#" class="fa fa-twitter" data-toggle="tooltip" title="Twitter"></a>
+                <a href="www.google.com" class="fa fa-google" data-toggle="tooltip" title="Google+"></a>
+                <a href="#" class="fa fa-linkedin" data-toggle="tooltip" title="Linkedin"></a>
+                <a href="#" class="fa fa-behance" data-toggle="tooltip" title="Behance"></a>
+                <a href="#" class="fa fa-flickr" data-toggle="tooltip" title="Flicker"></a>
+                <a href="#" class="fa fa-instagram" data-toggle="tooltip" title="Instagram"></a>
             </p>
 
             <!-- Social Media Icons [ END ] -->
@@ -357,15 +347,16 @@
 
         <!--( A ) Education Section -->
         <div class="education clearfix">
-            <h2 class="small-heading">Our astronauts</h2>
+            <h2 class="small-heading">Our Scientists</h2>
             @foreach($teams as $team)
                 <div class="col-lg-11 col-lg-offset-1">
                     <div class="story-content clearfix">
                         <img alt="" src="{{ Voyager::image( $team->image ) }}" class="col-xs-offset-1 col-sm-offset-0 col-sm-4 col-xs-10">
                         <div class="col-sm-8 col-xs-12">
-                            <h3>{{ $team->name }}</h3>
-                            <small><i>{{ $team->email }}</i></small>
-                            <hr style="margin: 5px 0px;">
+                            <h3 style="letter-spacing:0.1em;font-size:1.75em;" ><strong>{{ $team->name }}</strong></h3>
+                            <h4 style="letter-spacing:0.1em;">{{$team->specialty}}</h4>
+                            <!-- <small><i class="fa fa-envelope-o" aria-hidden="true"></i><i>&nbsp;&nbsp;{{ $team->email }}</i></small> -->
+                            <hr style="margin: 12px 0px;">
                             <div class="clearfix"></div>
                             <p>{{ $team->quote }}</p>
 
@@ -374,10 +365,11 @@
                                 <span class="label label-info"> {{$skill->name}}</span>
                             @endforeach
                             <div class="col-xs-12 social-media pull-left" style="text-align: left; margin-top: 10px; margin-left: 0px; padding-left: 0px;">
-                                <a href="{{ $team->facebook }}" class="fab fa-facebook-f" data-toggle="tooltip" title="Facebook"></a>
-                                <a href="{{ $team->twitter }}" class="fab fa-twitter" data-toggle="tooltip" title="Twitter"></a>
-                                <a href="{{ $team->linkedin }}" class="fab fa-linkedin" data-toggle="tooltip" title="Linkedin"></a>
-                                <a href="{{ $team->instagram }}" class="fab fa-instagram" data-toggle="tooltip" title="Instagram"></a>
+                                <a href="{{ $team->facebook }}" class="fa fa-facebook" data-toggle="tooltip" title="Facebook"></a>
+                                <a href="{{ $team->twitter }}" class="fa fa-twitter" data-toggle="tooltip" title="Twitter"></a>
+                                <a href="{{ $team->linkedin }}" class="fa fa-linkedin" data-toggle="tooltip" title="Linkedin"></a>
+                                <a href="{{ $team->instagram }}" class="fa fa-instagram" data-toggle="tooltip" title="Instagram"></a>
+                                <a href="mailto:{{$team->email}}" class="fa fa-envelope-o" data-toggle="tooltip" title="Instagram"></a>
                             </div>
                         </div>
                     </div>

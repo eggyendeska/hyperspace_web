@@ -288,6 +288,10 @@
   border-bottom: 10px solid #b0cfe4;
 }
 
+.social-media > a {
+  color: white;
+}
+
 /*-------------------------------
 
 	POPUP.CSS
