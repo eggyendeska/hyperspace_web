@@ -47,7 +47,7 @@
     <!--( a ) Introduction -->
 
     <div class="introduction">
-        <img alt="" src="{{ asset('images/astronaut-astronomy-cosmos-2152.jpg') }}">
+        <img alt="" src="{{ asset('images/astronaut.jpg') }}">
         <div class="mask">
         </div>
         <div class="intro-content">
@@ -73,7 +73,7 @@
 
     <div class="menu">
         <div class="profile-btn">
-            <img alt="" src="{{ asset('images/menu/profile_btn.jpg') }}">
+            <img alt="" src="{{ asset('images/menu/aboutus.jpg') }}">
             <div class="mask">
             </div>
             <div class="heading col-xs-11 col-xs-offset-1">
@@ -90,7 +90,7 @@
         <!-- Single Navigation Menu Button [ END ]  -->
 
         <div class="resume-btn">
-            <img alt="" src="{{ asset('images/menu/resume_btn.jpg') }}">
+            <img alt="" src="{{ asset('images/menu/whoweare2.jpg') }}">
             <div class="mask">
             </div>
             <div class="heading col-xs-11 col-xs-offset-1">
@@ -99,7 +99,7 @@
                 </div>
                 <div class="col-sm-10">
                     <h2>OUR <span>TEAM</span></h2>
-                    <h3>Meet our Scientist</h3>
+                    <h3>Meet our Scientists</h3>
                 </div>
             </div>
         </div>
@@ -107,7 +107,7 @@
         <!-- Single Navigation Menu Button [ END ]  -->
 
         <div class="portfolio-btn">
-            <img alt="" src="{{ asset('images/menu/portfolio_btn.jpg') }}">
+            <img alt="" src="{{ asset('images/menu/portfolio.jpg') }}">
             <div class="mask">
             </div>
             <div class="heading col-xs-11 col-xs-offset-1">
@@ -124,7 +124,7 @@
         <!-- Single Navigation Menu Button [ END ]  -->
 
         <div class="contact-btn">
-            <img alt="" src="{{ asset('images/menu/contact_btn.jpg') }}">
+            <img alt="" src="{{ asset('images/menu/contact.jpg') }}">
             <div class="mask">
             </div>
             <div class="heading col-xs-11 col-xs-offset-1">
@@ -238,7 +238,7 @@
         </div>
 
         <div class="skills clearfix">
-            <h2 class="small-heading">Skills</h2>
+            <h2 class="small-heading">Technologies</h2>
             <div class="clearfix">
                 <div class="skill-container col-sm-4">
                     <h3>Photoshop</h3>
@@ -401,7 +401,7 @@
         <div class="mask">
         </div>
         <div class="main-heading">
-            <h1><span>PORT</span>FOLIO</h1>
+            <h1><span>OUR </span>PORTFOLIO</h1>
         </div>
     </div>
 
@@ -526,7 +526,7 @@
         <!--( A ) Contact Form -->
 
         <div>
-            <h2 class="small-heading">Say hello!</h2>
+            <h2 class="small-heading">Give Us The Signal !</h2>
 
             <div class="contact-form col-sm-11 clearfix">
 
@@ -664,7 +664,7 @@
 <!--============
 9 ) Javascript
 =============-->
-{{--<script src="{{ asset('js/app.js') }}"></script>--}}
+<!-- {{--<script src="{{ asset('js/app.js') }}"></script>--}} -->
 <script type="text/javascript" src="{{ asset('js/insta/jquery-1.11.3.min.js') }}"></script>
 <script type="text/javascript" src="{{ asset('js/insta/bootstrap.min.js') }}"></script>
 <script type="text/javascript" src="{{ asset('js/insta/jquery.easing.min.js') }}"></script>
