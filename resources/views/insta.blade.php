@@ -365,11 +365,11 @@
                                 <span class="label label-info"> {{$skill->name}}</span>
                             @endforeach
                             <div class="col-xs-12 social-media pull-left" style="text-align: left; margin-top: 10px; margin-left: 0px; padding-left: 0px;">
-                                <a href="{{ $team->facebook }}" class="fa fa-facebook" data-toggle="tooltip" title="Facebook"></a>
-                                <a href="{{ $team->twitter }}" class="fa fa-twitter" data-toggle="tooltip" title="Twitter"></a>
-                                <a href="{{ $team->linkedin }}" class="fa fa-linkedin" data-toggle="tooltip" title="Linkedin"></a>
-                                <a href="{{ $team->instagram }}" class="fa fa-instagram" data-toggle="tooltip" title="Instagram"></a>
-                                <a href="mailto:{{$team->email}}" class="fa fa-envelope-o" data-toggle="tooltip" title="Instagram"></a>
+                                <div class="col-xs-2"><a href="{{ $team->facebook }}" class="fa fa-facebook" data-toggle="tooltip" title="Facebook"></a></div>
+                                <div class="col-xs-2"><a href="{{ $team->twitter }}" class="fa fa-twitter" data-toggle="tooltip" title="Twitter"></a></div>
+                                <div class="col-xs-2"><a href="{{ $team->linkedin }}" class="fa fa-linkedin" data-toggle="tooltip" title="Linkedin"></a></div>
+                                <div class="col-xs-2"><a href="{{ $team->instagram }}" class="fa fa-instagram" data-toggle="tooltip" title="Instagram"></a></div>
+                                <div class="col-xs-2"><a href="mailto:{{$team->email}}" class="fa fa-envelope-o" data-toggle="tooltip" title="Instagram"></a></div>
                             </div>
                         </div>
                     </div>
