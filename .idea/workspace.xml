@@ -5,6 +5,7 @@
     <list id="a2951396-6c18-4bc5-8432-d63caa7fba7c" name="Revert &quot;install front-end layout&quot; This reverts commit 51adba1" comment="Revert &quot;install front-end layout&quot;&#10;&#10;This reverts commit 51adba1" />
     <list default="true" id="955b91fc-aa9a-48cd-9a98-2c2f47b6c31d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/insta.blade.php" afterPath="$PROJECT_DIR$/resources/views/insta.blade.php" />
     </list>
     <ignored path="config/tinker.php" />
     <ignored path="config/trustedproxy.php" />
@@ -34,7 +35,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="seotools.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="seotools.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/seotools.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="145">
@@ -78,11 +79,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="insta.blade.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="insta.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/insta.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="27" lean-forward="false" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+            <state relative-caret-position="238">
+              <caret line="404" column="14" lean-forward="true" selection-start-line="404" selection-start-column="14" selection-end-line="404" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -163,9 +164,9 @@
         <option value="$PROJECT_DIR$/database/migrations/2018_04_11_101024_create_information_table.php" />
         <option value="$PROJECT_DIR$/database/migrations/2018_04_11_101300_create_infos_table.php" />
         <option value="$PROJECT_DIR$/config/app.php" />
-        <option value="$PROJECT_DIR$/resources/views/insta.blade.php" />
         <option value="$PROJECT_DIR$/config/seotools.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/PublicController.php" />
+        <option value="$PROJECT_DIR$/resources/views/insta.blade.php" />
       </list>
     </option>
   </component>
@@ -315,7 +316,7 @@
       <workItem from="1523436923813" duration="1119000" />
       <workItem from="1523440268983" duration="1904000" />
       <workItem from="1523442326329" duration="420000" />
-      <workItem from="1523456649878" duration="4312000" />
+      <workItem from="1523456649878" duration="4562000" />
     </task>
     <task id="LOCAL-00001" summary="install voyager hooks">
       <created>1522992837976</created>
@@ -415,11 +416,25 @@
       <option name="project" value="LOCAL" />
       <updated>1523460218737</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="add seo tools">
+      <created>1523460968302</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1523460968302</updated>
+    </task>
+    <task id="LOCAL-00016" summary="update blade">
+      <created>1523461104216</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1523461104216</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61949000" />
+    <option name="totallyTimeSpent" value="62199000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="732" extended-state="6" />
@@ -524,7 +539,8 @@
     <MESSAGE value="migration &amp; model infos" />
     <MESSAGE value="add facts image" />
     <MESSAGE value="add seo tools" />
-    <option name="LAST_COMMIT_MESSAGE" value="add seo tools" />
+    <MESSAGE value="update blade" />
+    <option name="LAST_COMMIT_MESSAGE" value="update blade" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -854,14 +870,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/insta.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="27" lean-forward="false" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-731">
@@ -874,6 +882,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="145">
           <caret line="32" column="104" lean-forward="true" selection-start-line="32" selection-start-column="104" selection-end-line="32" selection-end-column="104" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/insta.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="404" column="14" lean-forward="true" selection-start-line="404" selection-start-column="14" selection-end-line="404" selection-end-column="14" />
           <folding />
         </state>
       </provider>

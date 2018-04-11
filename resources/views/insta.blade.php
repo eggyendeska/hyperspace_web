@@ -401,7 +401,7 @@
         <div class="mask">
         </div>
         <div class="main-heading">
-            <h1><span>OUR </span>PORTFOLIO</h1>
+            <h1>OUR <span>PORTFOLIO</span></h1>
         </div>
     </div>
 
