@@ -660,7 +660,7 @@ body {
 /* ( c ) Some Facts */
 
 .facts {
-    background: url(../images/background/facts-bg.jpg);
+    /* background: url(../images/background/facts-bg.jpg); */
     background-size: cover;
     text-align: center;
     padding: 50px 15px;
