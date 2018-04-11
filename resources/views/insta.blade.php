@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <meta name="csrf-param" content="_token">
-    @stack('meta')
+    {!! SEO::generate() !!}
 
-    <title>{{ config('app.name', 'Hyperspace Software Indonesia') }}</title>
+    @stack('meta')
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <link href="{{ asset('css/insta.css') }}" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
