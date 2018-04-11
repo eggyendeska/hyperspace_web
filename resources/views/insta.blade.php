@@ -585,7 +585,7 @@
             <div class="contact col-sm-4">
                 <p>
                     <i class="fa fa-map-marker"></i><br>
-                    121 King St, Melbourne VIC
+                    Jl. Parangtritis KM 14.5, Gaduh, Patalan, Jetis, Bantul, Yogyakarta, Indonesia.
                 </p>
             </div>
 
@@ -594,25 +594,7 @@
             <div class="contact col-sm-4">
                 <p>
                     <i class="fa fa-phone"></i><br>
-                    +00 000 0000 000
-                </p>
-            </div>
-
-            <!-- Single Contact Details Item [ END ] -->
-
-            <div class="contact col-sm-4">
-                <p>
-                    <i class="fa fa-fax"></i><br>
-                    +00 000 0000 000
-                </p>
-            </div>
-
-            <!-- Single Contact Details Item [ END ] -->
-
-            <div class="contact col-sm-4">
-                <p>
-                    <i class="fa fa-phone"></i><br>
-                    +00 000 0000 000
+                    +62 89 671 945 007
                 </p>
             </div>
 
@@ -621,22 +603,17 @@
             <div class="contact col-sm-4">
                 <p>
                     <i class="fa fa-envelope"></i><br>
-                    dummy@example.com
+                    marketing@hyperspace.id
                 </p>
             </div>
 
             <!-- Single Contact Details Item [ END ] -->
 
-            <div class="contact col-sm-4">
-                <p>
-                    <i class="fa fa-globe"></i><br>
-                    www.example.com
-                </p>
-            </div>
+
 
             <!-- Single Contact Details Item [ END ] -->
 
-            <div class="col-xs-12 social-media">
+            <!-- <div class="col-xs-12 social-media">
                 <a href="#" class="fab fa-facebook" data-toggle="tooltip" title="Facebook"></a>
                 <a href="#" class="fab fa-twitter" data-toggle="tooltip" title="Twitter"></a>
                 <a href="#" class="fab fa-plus" data-toggle="tooltip" title="Google+"></a>
@@ -644,7 +621,7 @@
                 <a href="#" class="fab fa-behance" data-toggle="tooltip" title="Behance"></a>
                 <a href="#" class="fab fa-flickr" data-toggle="tooltip" title="Flicker"></a>
                 <a href="#" class="fab fa-instagram" data-toggle="tooltip" title="Instagram"></a>
-            </div>
+            </div> -->
 
             <!-- Social Media Icons [ END ] -->
 
