@@ -115,7 +115,7 @@
                     <i class="fa fa-briefcase"></i>
                 </div>
                 <div class="col-sm-10">
-                    <h2><span>OUR</span> PORTFOLIO</h2>
+                    <h2>OUR <span>PORTFOLIO</span> </h2>
                     <h3>See the galaxies we've built</h3>
                 </div>
             </div>
