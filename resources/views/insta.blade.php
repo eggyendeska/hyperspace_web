@@ -192,7 +192,7 @@
                 </p>
             </div>
 
-            <!-- Single Service Item [ END ]  -->
+
 
             <div class="services col-lg-4 col-md-6 col-sm-4">
                 <i class="fa fa-code"></i>
@@ -202,7 +202,7 @@
                 </p>
             </div>
 
-            <!-- Single Service Item [ END ]  -->
+
 
             <div class="services col-lg-4 col-md-6 col-sm-4">
                 <i class="fa fa-eye"></i>
@@ -213,7 +213,7 @@
 
             </div>
 
-            <!-- Single Service Item [ END ]  -->
+
 
             <div class="services col-lg-4 col-md-6 col-sm-4">
                 <i class="fa fa-lightbulb-o"></i>
@@ -223,7 +223,7 @@
                 </p>
             </div>
 
-            <!-- Single Service Item [ END ]  -->
+
 
             <div class="services col-lg-4 col-md-6 col-sm-4">
                 <i class="fa fa-rocket"></i>
@@ -233,7 +233,7 @@
                 </p>
             </div>
 
-            <!-- Single Service Item [ END ]  -->
+
 
             <div class="services col-lg-4 col-md-6 col-sm-4">
                 <i class="fa fa-wrench"></i>
@@ -243,69 +243,57 @@
                 </p>
             </div>
 
-            <!-- Single Service Item [ END ]  -->
+
 
         </div>
+
+        <!-- <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-12">
+          <div class="col-lg-4 col-md-4 col-xs-4">
+            <img src="{{asset('images/techs/django.png')}}" class="img-fluid" alt="ubuntu">
+          </div>
+          <div class="col-lg-4 col-md-4 col-xs-4">
+            <img src="{{asset('images/techs/ubuntu.png')}}" class="img-fluid" alt="ubuntu">
+          </div>
+          <div class="col-lg-4 col-md-4 col-xs-4">
+            <img src="{{asset('images/techs/ubuntu.png')}}" class="img-fluid" alt="ubuntu">
+          </div>
+        </div>
+        </div>
+        </div> -->
 
         <div class="skills clearfix">
             <h2 class="small-heading">Technologies</h2>
+            <br>
             <div class="clearfix">
-                <div class="skill-container col-sm-4">
-                    <h3>Photoshop</h3>
-                    <div class="skill" data-percent="60">
-                        <span>60%</span>
-                    </div>
+                <div class="container-fluid">
+
+                <div class="col-sm-3 col-sm-offset-1" style="margin-left: 6.333%;">
+                    <img src="{{asset('images/techs/ubuntu.png')}}" class="img-fluid" style="max-width:100%;height:auto;" alt="ubuntu">
                 </div>
-
-                <!-- Single Skills Item [ END ] -->
-
-                <div class="skill-container col-sm-4">
-                    <h3>Illustrator</h3>
-                    <div class="skill" data-percent="65">
-                        <span>65%</span>
-                    </div>
+                <div class="skill-container col-sm-3 col-sm-offset-1">
+                    <img src="{{asset('images/techs/laravel.png')}}" class="img-fluid" style="max-width:100%;height:auto;" alt="ubuntu">
                 </div>
-
-                <!-- Single Skills Item [ END ] -->
-
-                <div class="skill-container col-sm-4">
-                    <h3>Dreamweaver</h3>
-                    <div class="skill" data-percent="80">
-                        <span>80%</span>
-                    </div>
+                <div class="skill-container col-sm-3 col-sm-offset-1">
+                    <img src="{{asset('images/techs/django.png')}}" class="img-fluid" style="max-width:100%;height:auto;" alt="ubuntu">
                 </div>
-
-                <!-- Single Skills Item [ END ] -->
-
-                <div class="skill-container col-sm-4">
-                    <h3>Design</h3>
-                    <div class="skill" data-percent="55">
-                        <span>55%</span>
-                    </div>
+                <div class="col-sm-3 col-sm-offset-1" style="margin-left: 6.333%;">
+                    <img src="{{asset('images/techs/xcode.png')}}" class="img-fluid" style="max-width:100%;height:auto;" alt="ubuntu">
                 </div>
-
-                <!-- Single Skills Item [ END ] -->
-
-                <div class="skill-container col-sm-4">
-                    <h3>Development</h3>
-                    <div class="skill" data-percent="90">
-                        <span>90%</span>
-                    </div>
+                <div class="skill-container col-sm-3 col-sm-offset-1">
+                    <img src="{{asset('images/techs/swift.png')}}" class="img-fluid" style="max-width:100%;height:auto;" alt="ubuntu">
                 </div>
-
-                <!-- Single Skills Item [ END ] -->
-
-                <div class="skill-container col-sm-4">
-                    <h3>Coding</h3>
-                    <div class="skill" data-percent="85">
-                        <span>85%</span>
-                    </div>
+                <div class="skill-container col-sm-3 col-sm-offset-1">
+                    <img src="{{asset('images/techs/wordpress.png')}}" class="img-fluid" style="max-width:100%;height:auto;" alt="ubuntu">
                 </div>
+              </div>
 
-                <!-- Single Skills Item [ END ] -->
 
             </div>
         </div>
+
+        <br>
 
         <!--( C ) Some Facts -->
 
