@@ -543,19 +543,19 @@
                     {{ csrf_field() }}
                     <fieldset>
                         <div class="col-sm-12">
-                            <input id="name" name="name" placeholder="Your Name*" type="text" value="">
+                            <input id="name" name="name" placeholder="Your Name*" type="text" value="" required>
                         </div>
 
                         <!-- Name Field [ END ] -->
 
                         <div class="col-sm-12">
-                            <input id="email" name="email" placeholder="Your Email*" type="text" value="">
+                            <input id="email" name="email" placeholder="Your Email*" type="email" value="" required>
                         </div>
 
                         <!-- Email Field [ END ] -->
 
                         <div class="col-xs-12">
-                            <textarea cols="5" id="message" name="message" placeholder="Your Message....*"></textarea>
+                            <textarea cols="5" id="message" name="message" placeholder="Your Message....*" required></textarea>
                         </div>
 
                         <!-- Message Field [ END ] -->
