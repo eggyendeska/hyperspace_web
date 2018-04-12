@@ -9,6 +9,7 @@ use App\Testimonial;
 use SEOMeta;
 use OpenGraph;
 use SEOTools;
+use Response;
 use Illuminate\Http\Request;
 
 class PublicController extends Controller

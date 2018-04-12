@@ -47,6 +47,13 @@
     <!--( a ) Introduction -->
 
     <div class="introduction">
+        @if(Session::has('success'))
+            <script>
+                //function myFunction() {
+                alert("Success! Your message was sent.");
+
+            </script>
+        @endif
         <img alt="" src="{{ asset('images/astronaut.jpg') }}">
         <div class="mask">
         </div>
@@ -531,8 +538,9 @@
             <h2 class="small-heading">Give Us The Signal !</h2>
 
             <div class="contact-form col-sm-11 clearfix">
+                <form action="{{ route('message.store') }}" method="post" name="contactForm">
 
-                <form action="php/contact.php" id="contactForm" method="post" name="contactForm">
+                    {{ csrf_field() }}
                     <fieldset>
                         <div class="col-sm-12">
                             <input id="name" name="name" placeholder="Your Name*" type="text" value="">

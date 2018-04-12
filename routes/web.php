@@ -20,4 +20,8 @@ Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
 });
 
-Route::get('/', 'PublicController');
+Route::resource('message', 'MessageController')->only([
+    'store'
+]);
+
+Route::get('/', 'PublicController')->name('public.index');
