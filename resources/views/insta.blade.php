@@ -52,15 +52,17 @@
         </div>
         <div class="intro-content">
             <h2 style="text-decoration: none"></h2>
-            <h1><span>Hyper</span>Space <small>Software Indonesia</small></h1>
+            <h1><span>Hyper</span>Space</h1>
+            <!-- <br> -->
+            <h1 class="sub-tagline">Software Company</h1>
             <!-- <h2>Give us your money, we'll give you an alien techology</h2> -->
             <p class="social-media">
                 <a href="#" class="fa fa-facebook" data-toggle="tooltip" title="Facebook"></a>
                 <a href="#" class="fa fa-twitter" data-toggle="tooltip" title="Twitter"></a>
                 <a href="www.google.com" class="fa fa-google" data-toggle="tooltip" title="Google+"></a>
                 <a href="#" class="fa fa-linkedin" data-toggle="tooltip" title="Linkedin"></a>
-                <a href="#" class="fa fa-behance" data-toggle="tooltip" title="Behance"></a>
-                <a href="#" class="fa fa-flickr" data-toggle="tooltip" title="Flicker"></a>
+                <!-- <a href="#" class="fa fa-behance" data-toggle="tooltip" title="Behance"></a> -->
+                <!-- <a href="#" class="fa fa-flickr" data-toggle="tooltip" title="Flicker"></a> -->
                 <a href="#" class="fa fa-instagram" data-toggle="tooltip" title="Instagram"></a>
             </p>
 
@@ -82,7 +84,7 @@
                 </div>
                 <div class="col-sm-10">
                     <h2><span>ABOUT</span> US</h2>
-                    <h3>From big bang to universe expansion, read here.</h3>
+                    <h3>Just a wiki, about hyperspace</h3>
                 </div>
             </div>
         </div>
@@ -576,7 +578,11 @@
 
         <!--( B ) Google Map -->
 
-        <div class="google-map" id="google-map"></div>
+        <div class="google-map" id="google-map">
+            <div class="col-*-12">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d987.9320612653246!2d110.3508283167991!3d-7.923427763637797!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a55744e4e0331%3A0xc7576bd5bf0e3986!2sJl.+Parangtritis%2C+Patalan%2C+Jetis%2C+Bantul%2C+Daerah+Istimewa+Yogyakarta+55781!5e0!3m2!1sen!2sid!4v1523504082636" width="100%" height="550" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+        </div>
 
         <!--( C ) Contact Details -->
 
@@ -645,12 +651,12 @@
 <script type="text/javascript" src="{{ asset('js/insta/jquery-1.11.3.min.js') }}"></script>
 <script type="text/javascript" src="{{ asset('js/insta/bootstrap.min.js') }}"></script>
 <script type="text/javascript" src="{{ asset('js/insta/jquery.easing.min.js') }}"></script>
-<script type="text/javascript" src="{{ asset('js/insta/jquery.easypiechart.min.js') }}"></script>
+<!-- <script type="text/javascript" src="{{ asset('js/insta/jquery.easypiechart.min.js') }}"></script> -->
 <script type="text/javascript" src="{{ asset('js/insta/jquery.filterizr.min.js') }}"></script>
 <script type="text/javascript" src="{{ asset('js/insta/jquery.popup.min.js') }}"></script>
 <script type="text/javascript" src="{{ asset('js/insta/owl.carousel.min.js') }}"></script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDirYnFlHB8ScnXrEpbWcpv5q95RyAl0tg"></script>
-<script type="text/javascript" src="{{ asset('js/insta/jquery.gmap.min.js') }}"></script>
+<!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDirYnFlHB8ScnXrEpbWcpv5q95RyAl0tg"></script> -->
+<!-- <script type="text/javascript" src="{{ asset('js/insta/jquery.gmap.min.js') }}"></script> -->
 <script type="text/javascript" src="{{ asset('js/insta/viewport-units-buggyfill.hacks.js') }}"></script>
 <script type="text/javascript" src="{{ asset('js/insta/viewport-units-buggyfill.js') }}"></script>
 <script>
