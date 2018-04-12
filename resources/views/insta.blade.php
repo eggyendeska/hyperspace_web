@@ -186,19 +186,9 @@
             <h2 class="small-heading">What can we do?</h2>
             <div class="services col-lg-4 col-md-6 col-sm-4">
                 <i class="fa fa-eyedropper"></i>
-                <h3>GRAPHIC DESIGN</h3>
+                <h3><strong>WEB DESIGN</strong></h3>
                 <p>
-                    Sed mi sem, sagi eros ac, laoreet commodo diam. Morbi id est in urna facilisis dictum. Mauris rutrum mollis neque a sodales. Mauris sed ipsum nec turpis finibus.
-                </p>
-            </div>
-
-            <!-- Single Service Item [ END ]  -->
-
-            <div class="services col-lg-4 col-md-6 col-sm-4">
-                <i class="fa fa-eye"></i>
-                <h3>WEB DESIGN</h3>
-                <p>
-                    Vivamus et rhoncus mauris, suscipit efficitur elementum ex. Interdum et malesuada ipsum primis in faucibus. Nullam odio libero, cursus ac ligula suscipit maximus.
+                  Designing website never been so easy! We have a long time experience of developing company profiles and e-commerces, so whatever website you want to build, spill the idea, we'll make it real!
                 </p>
             </div>
 
@@ -206,19 +196,30 @@
 
             <div class="services col-lg-4 col-md-6 col-sm-4">
                 <i class="fa fa-code"></i>
-                <h3>WEB DEVELOPMENT</h3>
+                <h3><strong>WEB DEVELOPMENT</strong></h3>
                 <p>
-                    Praesent ac varius ante, eu suscipit odio. Vesmolito modo pretium scelerisque. Sed vulputate ac varius ante dapibus tempor. Maecenas ut cursus aug suscipit malesuada felis.
+                    From a simple Point of Sales to a large scale Enterprise Resource Planning, we would always be ready to help you to solve all your problems.
                 </p>
             </div>
 
             <!-- Single Service Item [ END ]  -->
 
             <div class="services col-lg-4 col-md-6 col-sm-4">
-                <i class="fa fa-lightbulb-o"></i>
-                <h3>BRIGHT IDEAS</h3>
+                <i class="fa fa-eye"></i>
+                <h3><strong>GRAPHIC DESIGN</strong></h3>
                 <p>
-                    Nunc egestas sed efficitur nulla a sodales. Pellentesque tincidunt diam quam, rhoncus congue pellentesque eu, faucibus nec turpis. Quisque laoreet tincidunt turpis dolor tempus.
+                  Need a logo? Poster maybe? Leaflet? or Assets for your websites? just tell us!
+                </p>
+
+            </div>
+
+            <!-- Single Service Item [ END ]  -->
+
+            <div class="services col-lg-4 col-md-6 col-sm-4">
+                <i class="fa fa-lightbulb-o"></i>
+                <h3><strong>IT CONSULTATION</strong></h3>
+                <p>
+                    Maybe you need to figure out what is you really needed at some point? Contact us and let us help you with your problem. Godspeed!
                 </p>
             </div>
 
@@ -226,9 +227,9 @@
 
             <div class="services col-lg-4 col-md-6 col-sm-4">
                 <i class="fa fa-rocket"></i>
-                <h3>APP DEVELOPMENT</h3>
+                <h3><strong>DEV OPS</strong></h3>
                 <p>
-                    Vestibulum dictum tincidunt pulvinar elementum. Etiam urna massa, vestibulum id purus id, vehicula placerat dui. Aenean sit amet pulvinar urna. Ut at mi semper, eleifend.
+                    Setting up servers and deploying your system, we always be ready to help you maintain your application and putting one into your server. We know sometimes it's a pain in the buttock to face that kind of problem.
                 </p>
             </div>
 
@@ -236,9 +237,9 @@
 
             <div class="services col-lg-4 col-md-6 col-sm-4">
                 <i class="fa fa-wrench"></i>
-                <h3>SETTINGS</h3>
+                <h3><strong>VPS HOSTING</strong></h3>
                 <p>
-                    Vestibulum tincidunt sed dapibus elit, sed accumsan libero. Nam vulputate tincidunt quam quis nibh porttitor, a tincidunt lacinia. Nulla turpis arcu, hendrerit volutpat tincidunt at, eget est.
+                    Wanted to be able to integrate all your apps? Let us deploy your apps to the cloud. You just give us the word, we'll take care of the rest!
                 </p>
             </div>
 
@@ -311,15 +312,16 @@
         <div class="facts clearfix">
             <div class="col-xs-4">
                 <h3>PROJECTS DONE</h3>
-                <h1>{{ $projects->count() }}+</h1>
+                <!-- <h1>{{ $projects->count() }}+</h1> -->
+                <h1>38+</h1>
             </div>
             <div class="col-xs-4">
                 <h3>HAPPY CLIENTS</h3>
-                <h1>100+</h1>
+                <h1>38++</h1>
             </div>
             <div class="col-xs-4">
                 <h3>COFFEE CUPS</h3>
-                <h1>250+</h1>
+                <h1>9999+</h1>
             </div>
         </div>
 
