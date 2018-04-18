@@ -4,13 +4,13 @@
 [ INSTA , Javscript ]
 
   Template Name : INSTA - Responsive Onepage Resume Template
-  
-  Version       :  1.0 
-  
+
+  Version       :  1.0
+
   Author        :  Pixel_Factory
-  
+
   Author URI    :  http://themeforest.net/user/Pixel_Factory
-  
+
   Author Email  : h.nafees.anwar@gmail.com
 
 --------------------------------------------------------
@@ -200,7 +200,7 @@ $(document).ready(function () {
         -------------------------------  */
 
     $(function () {
-        
+
         var filterizd = $('.projet-items').filterizr({});
 
 
@@ -258,32 +258,32 @@ $(document).ready(function () {
          Google Map ( for contact page )
         -------------------------------  */
 
-    $('#google-map').gMap({
-        latitude: -7.738329,
-        longitude: 110.399769,
-        maptype: 'TERRAIN',
-        scrollwheel: false,
-        zoom: 14,
-        markers: [
-            {
-                latitude: -7.738329,
-                longitude: 110.399769,
-                html: "I am Here!",
-                icon: {
-                    image: "images/icon/map_marker.png",
-                    iconsize: [46, 46],
-                    iconanchor: [12, 46]
-                }
-            }
-        ],
-        controls: {
-            panControl: false,
-            zoomControl: true,
-            mapTypeControl: false,
-            scaleControl: false,
-            streetViewControl: false,
-            overviewMapControl: false
-        }
-    });
+    // $('#google-map').gMap({
+    //     latitude: -7.738329,
+    //     longitude: 110.399769,
+    //     maptype: 'TERRAIN',
+    //     scrollwheel: false,
+    //     zoom: 14,
+    //     markers: [
+    //         {
+    //             latitude: -7.738329,
+    //             longitude: 110.399769,
+    //             html: "I am Here!",
+    //             icon: {
+    //                 image: "images/icon/map_marker.png",
+    //                 iconsize: [46, 46],
+    //                 iconanchor: [12, 46]
+    //             }
+    //         }
+    //     ],
+    //     controls: {
+    //         panControl: false,
+    //         zoomControl: true,
+    //         mapTypeControl: false,
+    //         scaleControl: false,
+    //         streetViewControl: false,
+    //         overviewMapControl: false
+    //     }
+    // });
 
 });

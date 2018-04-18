@@ -1,7 +1,6 @@
 {
     "/js/app.js": "/js/app.js",
     "/css/app.css": "/css/app.css",
-    "/js/moving-letter1.js": "/js/moving-letter1.js",
     "/js/insta/script.js": "/js/insta/script.js",
     "/js/insta/jquery-1.11.3.min.js": "/js/insta/jquery-1.11.3.min.js",
     "/js/insta/modernizr.js": "/js/insta/modernizr.js",
@@ -10,7 +9,6 @@
     "/js/insta/jquery.filterizr.min.js": "/js/insta/jquery.filterizr.min.js",
     "/js/insta/jquery.popup.min.js": "/js/insta/jquery.popup.min.js",
     "/js/insta/owl.carousel.min.js": "/js/insta/owl.carousel.min.js",
-    "/js/insta/jquery.gmap.min.js": "/js/insta/jquery.gmap.min.js",
     "/js/insta/viewport-units-buggyfill.hacks.js": "/js/insta/viewport-units-buggyfill.hacks.js",
     "/js/insta/viewport-units-buggyfill.js": "/js/insta/viewport-units-buggyfill.js",
     "/js/insta/bootstrap.min.js": "/js/insta/bootstrap.min.js",

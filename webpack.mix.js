@@ -12,7 +12,7 @@ let mix = require('laravel-mix');
  */
 
 mix.js('resources/assets/js/app.js', 'public/js')
-   .js('resources/assets/js/moving-letter1.js','public/js')
+   // .js('resources/assets/js/moving-letter1.js','public/js')
    .sass('resources/assets/sass/app.scss', 'public/css')
    .copy([
        'resources/assets/insta/js/script.js',
@@ -23,7 +23,7 @@ mix.js('resources/assets/js/app.js', 'public/js')
        'resources/assets/insta/library/Filterizr/jquery.filterizr.min.js',
        'resources/assets/insta/library/popup/jquery.popup.min.js',
        'resources/assets/insta/library/owl-carousel/owl.carousel.min.js',
-       'resources/assets/insta/library/gMap/jquery.gmap.min.js',
+       // 'resources/assets/insta/library/gMap/jquery.gmap.min.js',
        'resources/assets/insta/library/buggyfill/viewport-units-buggyfill.hacks.js',
        'resources/assets/insta/library/buggyfill/viewport-units-buggyfill.js',
        'resources/assets/insta/library/bootstrap/js/bootstrap.min.js'
