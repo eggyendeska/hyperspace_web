@@ -645,7 +645,7 @@
 <!--============
 9 ) Javascript
 =============-->
-<script src="{{ asset('js/app.js') }}"></script>
+<!-- <script src="{{ asset('js/app.js') }}"></script> -->
 <script type="text/javascript" src="{{ asset('js/insta/jquery-1.11.3.min.js') }}"></script>
 <script type="text/javascript" src="{{ asset('js/insta/bootstrap.min.js') }}"></script>
 <script type="text/javascript" src="{{ asset('js/insta/jquery.easing.min.js') }}"></script>
