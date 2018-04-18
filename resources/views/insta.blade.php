@@ -429,7 +429,7 @@
                     @foreach($projects as $project)
                         <div class="col-lg-4 col-md-6 col-sm-4 col-xs-6 filtr-item" data-category="{{ $project->project_categories_id }}">
                             <div class="project">
-                                <img src="{{ Voyager::image( $project->image ) }}" alt="">
+                                <img src="{{ Voyager::image( $project->thumbnail('small', 'image') ) }}" alt="">
                                 <div class="ovrly">
                                 </div>
                                 <div class="buttons">
@@ -442,7 +442,7 @@
                         <!-- Popup Content -->
 
                         <div class="pop-up-box" id="portfolio-{{$project->id}}">
-                            <img alt="" src="{{ Voyager::image( $project->image ) }}" class=" hidden-xs">
+                            <img alt="" src="{{ Voyager::image( $project->thumbnail('medium', 'image') ) }}" class=" hidden-xs">
                             <div class="popup-content">
                                 <h3>{{ $project->title }}</h3>
                                 <p>
