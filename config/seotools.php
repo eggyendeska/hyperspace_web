@@ -9,7 +9,7 @@ return [
             'title'        => "HyperSpace Software Indonesia", // set false to total remove
             'description'  => 'The best software house around the Universe', // set false to total remove
             'separator'    => ' - ',
-            'keywords'     => ['software house','software factory','software builder', 'application builder' ,'software developer' ,'developer', 'php developer','android developer'],
+            'keywords'     => ['software house','software house jogja', 'software house indonesia','bikin aplikasi','bikin aplikasi android','bikin aplikasi ios','jasa bikin website','jasa bikin aplikasi','hyperspace software','hyperspace software house','jasa bikin logo','jasa desain','jasa pembuatan aplikasi','jasa pembuatan software','jasa pembuatan website','website murah'],
             'canonical'    => null, // Set null for using Url::current(), set false to total remove
         ],
 
