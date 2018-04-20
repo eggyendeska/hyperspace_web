@@ -24,4 +24,8 @@ Route::resource('message', 'MessageController')->only([
     'store'
 ]);
 
+Route::get('sitemap/generate', function () {
+    \Spatie\Sitemap\SitemapGenerator::create(url('/'))->writeToFile(public_path('sitemap.xml'));
+});
+
 Route::get('/', 'PublicController')->name('public.index');
