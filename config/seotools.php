@@ -7,10 +7,10 @@ return [
          */
         'defaults'       => [
             'title'        => "HyperSpace Software Indonesia", // set false to total remove
-            'description'  => 'The best software house around the Universe', // set false to total remove
+            'description'  => 'Buat aplikasi ERP, Sistem Informasi, App Android dan iOS dengan kwalitas terbaik dan waktu launching yang cepat. Hanya di Hyperspace Software Indonesia!', // set false to total remove
             'separator'    => ' - ',
             'keywords'     => ['hyperspace','hyperspace id','hyperspace software','software house','software house jogja', 'software house indonesia','bikin aplikasi','bikin aplikasi android','bikin aplikasi ios','jasa bikin website','jasa bikin aplikasi','hyperspace software','hyperspace software house','jasa bikin logo','jasa desain','jasa pembuatan aplikasi','jasa pembuatan software','jasa pembuatan website','website murah'],
-			//'author'	   => "https://www.instagram.com/hyperspace.id/",	
+			//'author'	   => "https://www.instagram.com/hyperspace.id/",
             'canonical'    => null, // Set null for using Url::current(), set false to total remove
         ],
 
