@@ -76,13 +76,11 @@
             <h1 class="sub-tagline">Software Company</h1>
             <!-- <h2>Give us your money, we'll give you an alien techology</h2> -->
             <p class="social-media">
-                <a href="#" class="fa fa-facebook" data-toggle="tooltip" title="Facebook"></a>
-                <a href="#" class="fa fa-twitter" data-toggle="tooltip" title="Twitter"></a>
-                <a href="www.google.com" class="fa fa-google" data-toggle="tooltip" title="Google+"></a>
+                <a href="https://www.facebook.com/hyperspace.id/" class="fa fa-facebook" data-toggle="tooltip" title="Facebook"></a>
+                <a href="https://twitter.com/hyperspace_id" class="fa fa-twitter" data-toggle="tooltip" title="Twitter"></a>
+                <a href="#" class="fa fa-google" data-toggle="tooltip" title="Google+"></a>
                 <a href="#" class="fa fa-linkedin" data-toggle="tooltip" title="Linkedin"></a>
-                <!-- <a href="#" class="fa fa-behance" data-toggle="tooltip" title="Behance"></a> -->
-                <!-- <a href="#" class="fa fa-flickr" data-toggle="tooltip" title="Flicker"></a> -->
-                <a href="#" class="fa fa-instagram" data-toggle="tooltip" title="Instagram"></a>
+                <a href="https://www.instagram.com/hyperspace.id/" class="fa fa-instagram" data-toggle="tooltip" title="Instagram"></a>
             </p>
 
             <!-- Social Media Icons [ END ] -->
