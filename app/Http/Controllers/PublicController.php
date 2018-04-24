@@ -17,9 +17,10 @@ class PublicController extends Controller
     public function __invoke()
     {
 		//custom meta config
+        SEOMeta::addMeta('google-site-verification', 'A8T0OJyEQzJExYFYP4H3hHCWwd7NIzPVTN0SQPjiSOg');
         SEOMeta::addMeta('robots', 'index, follow');
         SEOMeta::addMeta('googlebot', 'index, follow');
-		    SEOMeta::addMeta('author', 'https://www.instagram.com/hyperspace.id/');
+		SEOMeta::addMeta('author', 'https://www.instagram.com/hyperspace.id/');
         SEOMeta::addMeta('business:contact_data:street_address', 'Jl. Parangtritis KM 14.5, Gaduh, Patalan, Jetis, Bantul, Yogyakarta, Indonesia');
         SEOMeta::addMeta('business:contact_data:locality', 'Indonesia');
         SEOMeta::addMeta('business:contact_data:postal_code', '55281');
