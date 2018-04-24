@@ -31,7 +31,7 @@ return [
          */
         'defaults' => [
             'title'       => 'HyperSpace Software Indonesia!', // set false to total remove
-            'description' => 'The best software house around the Universe', // set false to total remove
+            'description' => 'Buat aplikasi ERP, Sistem Informasi, App Android dan iOS dengan kwalitas terbaik dan waktu launching yang cepat. Hanya di Hyperspace Software Indonesia!', // set false to total remove
             'url'         => null, // Set null for using Url::current(), set false to total remove
             'type'        => false,
             'site_name'   => false,
