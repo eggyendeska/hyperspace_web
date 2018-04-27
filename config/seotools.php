@@ -36,7 +36,7 @@ return [
             'url'         => null, // Set null for using Url::current(), set false to total remove
             'type'        => false,
             'site_name'   => false,
-            'images'      => [asset('images/astronaut.jpg')],
+         //   'images'      => [asset('images/astronaut.jpg')],
         ],
     ],
     'twitter' => [

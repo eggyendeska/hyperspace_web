@@ -189,9 +189,6 @@
     <div class="content-container col-md-7 col-sm-12">
 
 
-
-        <!--( B ) What Can I Do -->
-
         <div class="services-container clearfix">
             <h2 class="small-heading">What can we do?</h2>
             <div class="services col-lg-4 col-md-6 col-sm-4">
@@ -257,47 +254,33 @@
 
         </div>
 
-        <!-- <div class="container-fluid">
-          <div class="row">
-            <div class="col-md-12">
-          <div class="col-lg-4 col-md-4 col-xs-4">
-            <img src="{{asset('images/techs/django.png')}}" class="img-fluid" alt="ubuntu">
-          </div>
-          <div class="col-lg-4 col-md-4 col-xs-4">
-            <img src="{{asset('images/techs/ubuntu.png')}}" class="img-fluid" alt="ubuntu">
-          </div>
-          <div class="col-lg-4 col-md-4 col-xs-4">
-            <img src="{{asset('images/techs/ubuntu.png')}}" class="img-fluid" alt="ubuntu">
-          </div>
-        </div>
-        </div>
-        </div> -->
-
         <div class="skills clearfix">
             <h2 class="small-heading">Technologies</h2>
             <br>
             <div class="clearfix">
                 <div class="container-fluid">
+                    <div class="technologies cf">
+                        <div class="skill-container col-sm-4 ">
+                            <img src="{{asset('images/techs/ubuntu.png')}}" class="img-fluid" alt="ubuntu">
+                        </div>
+                        <div class="skill-container col-sm-4 ">
+                            <img src="{{asset('images/techs/laravel.png')}}" class="img-fluid" alt="laravel">
+                        </div>
+                        <div class="skill-container col-sm-4 ">
+                            <img src="{{asset('images/techs/django.png')}}" class="img-fluid"  alt="django">
+                        </div>
+                        <div class="skill-container col-sm-4 ">
+                            <img src="{{asset('images/techs/swift.png')}}" class="img-fluid" alt="swift">
+                        </div>
+                        <div class="skill-container col-sm-4 ">
+                            <img src="{{asset('images/techs/java.png')}}" class="img-fluid" alt="java">
+                        </div>
 
-                <div class="col-sm-3 col-sm-offset-1" style="margin-left: 6.333%;">
-                    <img src="{{asset('images/techs/ubuntu.png')}}" class="img-fluid" style="max-width:100%;height:auto;" alt="ubuntu">
+                        <div class="skill-container col-sm-4 ">
+                            <img src="{{asset('images/techs/wordpress.png')}}" class="img-fluid" alt="wordpress">
+                        </div>
+                    </div>
                 </div>
-                <div class="skill-container col-sm-3 col-sm-offset-1">
-                    <img src="{{asset('images/techs/laravel.png')}}" class="img-fluid" style="max-width:100%;height:auto;" alt="ubuntu">
-                </div>
-                <div class="skill-container col-sm-3 col-sm-offset-1">
-                    <img src="{{asset('images/techs/django.png')}}" class="img-fluid" style="max-width:100%;height:auto;" alt="ubuntu">
-                </div>
-                <div class="col-sm-3 col-sm-offset-1" style="margin-left: 6.333%;">
-                    <img src="{{asset('images/techs/xcode.png')}}" class="img-fluid" style="max-width:100%;height:auto;" alt="ubuntu">
-                </div>
-                <div class="skill-container col-sm-3 col-sm-offset-1">
-                    <img src="{{asset('images/techs/swift.png')}}" class="img-fluid" style="max-width:100%;height:auto;" alt="ubuntu">
-                </div>
-                <div class="skill-container col-sm-3 col-sm-offset-1">
-                    <img src="{{asset('images/techs/wordpress.png')}}" class="img-fluid" style="max-width:100%;height:auto;" alt="ubuntu">
-                </div>
-              </div>
 
 
             </div>
@@ -310,7 +293,6 @@
         <div class="facts clearfix">
             <div class="col-xs-4">
                 <h3>PROJECTS DONE</h3>
-                <!-- <h1>{{ $projects->count() }}+</h1> -->
                 <h1>38+</h1>
             </div>
             <div class="col-xs-4">
@@ -489,15 +471,15 @@
         <div class="facts clearfix">
             <div class="col-xs-4">
                 <h3>PROJECTS DONE</h3>
-                <h1>{{ $projects->count() }}+</h1>
+                <h1>38+</h1>
             </div>
             <div class="col-xs-4">
                 <h3>HAPPY CLIENTS</h3>
-                <h1>100+</h1>
+                <h1>38++</h1>
             </div>
             <div class="col-xs-4">
                 <h3>COFFEE CUPS</h3>
-                <h1>250+</h1>
+                <h1>9999+</h1>
             </div>
         </div>
 
@@ -592,13 +574,11 @@
             </div>
         </div>
 
-        <!--( C ) Contact Details -->
-
         <div class="contact-details clearfix">
             <h2 class="small-heading">Contact details</h2>
             <div class="contact col-sm-4">
                 <p>
-                    <i class="fa fa-map-marker"></i><br>
+                    <i class="fa fa-map-marker fa-4x"></i><br>
                     Jl. Parangtritis KM 14.5, Gaduh, Patalan, Jetis, Bantul, Yogyakarta, Indonesia.
                 </p>
             </div>
@@ -607,7 +587,7 @@
 
             <div class="contact col-sm-4">
                 <p>
-                    <i class="fa fa-phone"></i><br>
+                    <i class="fa fa-phone fa-4x"></i><br>
                     +62 89 671 945 007
                 </p>
             </div>
@@ -616,28 +596,11 @@
 
             <div class="contact col-sm-4">
                 <p>
-                    <i class="fa fa-envelope"></i><br>
+                    <i class="fa fa-envelope fa-4x"></i><br>
                     marketing@hyperspace.id
                 </p>
             </div>
 
-            <!-- Single Contact Details Item [ END ] -->
-
-
-
-            <!-- Single Contact Details Item [ END ] -->
-
-            <!-- <div class="col-xs-12 social-media">
-                <a href="#" class="fab fa-facebook" data-toggle="tooltip" title="Facebook"></a>
-                <a href="#" class="fab fa-twitter" data-toggle="tooltip" title="Twitter"></a>
-                <a href="#" class="fab fa-plus" data-toggle="tooltip" title="Google+"></a>
-                <a href="#" class="fab fa-linkedin" data-toggle="tooltip" title="Linkedin"></a>
-                <a href="#" class="fab fa-behance" data-toggle="tooltip" title="Behance"></a>
-                <a href="#" class="fab fa-flickr" data-toggle="tooltip" title="Flicker"></a>
-                <a href="#" class="fab fa-instagram" data-toggle="tooltip" title="Instagram"></a>
-            </div> -->
-
-            <!-- Social Media Icons [ END ] -->
 
         </div>
 
@@ -655,7 +618,6 @@
 <!--============
 9 ) Javascript
 =============-->
-<!-- <script src="{{ asset('js/app.js') }}"></script> -->
 <script type="text/javascript" src="{{ asset('js/insta/jquery-1.11.3.min.js') }}"></script>
 <script type="text/javascript" src="{{ asset('js/insta/bootstrap.min.js') }}"></script>
 <script type="text/javascript" src="{{ asset('js/insta/jquery.easing.min.js') }}"></script>
@@ -663,8 +625,6 @@
 <script type="text/javascript" src="{{ asset('js/insta/jquery.filterizr.min.js') }}"></script>
 <script type="text/javascript" src="{{ asset('js/insta/jquery.popup.min.js') }}"></script>
 <script type="text/javascript" src="{{ asset('js/insta/owl.carousel.min.js') }}"></script>
-<!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDirYnFlHB8ScnXrEpbWcpv5q95RyAl0tg"></script> -->
-<!-- <script type="text/javascript" src="{{ asset('js/insta/jquery.gmap.min.js') }}"></script> -->
 <script type="text/javascript" src="{{ asset('js/insta/viewport-units-buggyfill.hacks.js') }}"></script>
 <script type="text/javascript" src="{{ asset('js/insta/viewport-units-buggyfill.js') }}"></script>
 <script>

@@ -666,6 +666,44 @@ body {
     padding: 50px 15px;
 }
 
+.technologies {
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.technologies > div {
+    position: relative;
+    padding: 15px;
+}
+
+.technologies > div > img {
+    height: 100px;
+    width: auto;
+    margin: auto;
+    transition: .1s transform;
+    transform: translateZ(0); /* hack */
+}
+
+.technologies > div:hover {
+    z-index: 1;
+}
+
+.technologies > div:hover > img {
+    transform: scale(1.7,1.7);
+    transition: .3s transform;
+}
+
+.cf:before, .cf:after {
+    display: table;
+    content: "";
+    line-height: 0;
+}
+
+.cf:after {
+    clear: both;
+}
+
+
                     /*-----------------
                        8 ) Resume Page
                       -----------------*/
@@ -1190,7 +1228,6 @@ body {
 
 .google-map {
     width: 100%;
-    height: 700px;
 }
 
 /* ( b )  Contact Details */
@@ -1205,10 +1242,13 @@ body {
 }
 
 .contact p i {
-    font-size: 25px;
+    /*font-size: 25px;*/
     margin: 20px 0;
 }
 
+.contact-details {
+    padding-bottom: 10px;
+}
 .contact-details .social-media {
     margin: 0;
     padding: 20px 0;
